@@ -1,0 +1,7 @@
+<suite name="Suite">
+  <test name="NECFTest" thread-count="5">
+    <classes>
+      <class name="com.testRunner.TestRunner"/>
+    </classes>
+  </test>
+</suite>

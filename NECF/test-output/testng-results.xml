@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-19T10:44:19 IST" name="Suite" finished-at="2025-11-19T10:45:10 IST" duration-ms="50871">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testRunner.TestRunner@aba625]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-11-19T10:44:19 IST" name="NECFTest" finished-at="2025-11-19T10:45:10 IST" duration-ms="50871">
+      <class name="com.testRunner.TestRunner">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.testRunner.TestRunner@aba625]" started-at="2025-11-19T10:44:19 IST" name="beforeSuite" finished-at="2025-11-19T10:44:19 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.testRunner.TestRunner@aba625]" started-at="2025-11-19T10:44:19 IST" name="setUpClass" finished-at="2025-11-19T10:44:20 IST" duration-ms="641" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4b5aa48b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testRunner.TestRunner@aba625]" started-at="2025-11-19T10:44:20 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-19T10:44:33 IST" duration-ms="13666" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify NECF website is running"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["NECF Website Health Check"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="junit.framework.AssertionFailedError">
+            <message>
+              <![CDATA[Title verification failed! Expected: NECF Global – Marketplace1, Found: NECF Global – Marketplace]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.AssertionFailedError: Title verification failed! Expected: NECF Global – Marketplace1, Found: NECF Global – Marketplace
+at junit.framework.Assert.fail(Assert.java:47)
+at com.pages.HomePage.verifyingTitle(HomePage.java:135)
+at com.stepDefinitions.HomePageStep.the_website_should_load_successfully(HomePageStep.java:34)
+at ✽.the website should load successfully(file:///C:/Users/jubin/NECF%20Project/NECF/src/test/resources/NECF.feature:5)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.AssertionFailedError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.testRunner.TestRunner@aba625]" started-at="2025-11-19T10:44:33 IST" name="tearDownClass" finished-at="2025-11-19T10:45:10 IST" duration-ms="36522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.testRunner.TestRunner@aba625]" started-at="2025-11-19T10:45:10 IST" name="afterSuite" finished-at="2025-11-19T10:45:15 IST" duration-ms="5002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.testRunner.TestRunner -->
+    </test> <!-- NECFTest -->
+  </suite> <!-- Suite -->
+</testng-results>

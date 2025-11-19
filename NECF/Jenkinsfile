@@ -1,0 +1,201 @@
+pipeline {
+    agent any
+    
+    tools {
+        // Configure JDK 11 (Java 11) - adjust tool name based on your Jenkins configuration
+        jdk 'JDK-11'  // Change this to match your Jenkins JDK tool name (e.g., 'jdk11', 'JDK_11', 'JDK-11.0.27', etc.)
+        // Configure Maven - adjust tool name based on your Jenkins configuration
+        maven 'Maven-3.8'  // Change this to match your Jenkins Maven tool name (e.g., 'maven-3.8.6', 'Maven-3.9', etc.)
+    }
+    
+    options {
+        // Keep build artifacts for 7 days
+        buildDiscarder(logRotator(numToKeepStr: '10'))
+        // Timeout after 30 minutes
+        timeout(time: 30, unit: 'MINUTES')
+        // Add timestamps to console output
+        timestamps()
+    }
+    
+    environment {
+        // Set Java options for headless execution
+        JAVA_OPTS = '-Xmx2048m -Xms512m'
+        // Browser configuration for headless execution
+        BROWSER = 'chrome'  // or 'firefox', 'edge' based on your needs
+        HEADLESS = 'true'
+        // Maven options
+        MAVEN_OPTS = '-Xmx2048m -Xms512m'
+    }
+    
+    stages {
+        stage('Checkout') {
+            steps {
+                script {
+                    echo 'Checking out source code from repository...'
+                    checkout scm
+                }
+            }
+        }
+        
+        stage('Clean') {
+            steps {
+                script {
+                    echo 'Cleaning previous build artifacts...'
+                    sh 'mvn clean'
+                }
+            }
+        }
+        
+        stage('Compile') {
+            steps {
+                script {
+                    echo 'Compiling source code...'
+                    sh 'mvn compile test-compile'
+                }
+            }
+        }
+        
+        stage('Run Tests') {
+            steps {
+                script {
+                    echo 'Running Cucumber tests...'
+                    // Run tests with TestNG
+                    sh '''
+                        mvn test \
+                            -Dtest=com.testRunner.TestRunner \
+                            -Dbrowser=${BROWSER} \
+                            -Dheadless=${HEADLESS}
+                    '''
+                }
+            }
+            post {
+                always {
+                    echo 'Test execution completed. Processing results...'
+                }
+            }
+        }
+        
+        stage('Archive Reports') {
+            steps {
+                script {
+                    echo 'Archiving test reports...'
+                    
+                    // Archive ExtentReports HTML report
+                    archiveArtifacts artifacts: 'target/ExtentReports/SparkReport.html', 
+                                    allowEmptyArchive: true,
+                                    fingerprint: true
+                    
+                    // Archive ExtentReports PDF report
+                    archiveArtifacts artifacts: 'target/ExtentReports/ExtentReport.pdf', 
+                                    allowEmptyArchive: true,
+                                    fingerprint: true
+                    
+                    // Archive ExtentReports JSON
+                    archiveArtifacts artifacts: 'target/ExtentReports/ExtentJson.json', 
+                                    allowEmptyArchive: true,
+                                    fingerprint: true
+                    
+                    // Archive Cucumber HTML reports
+                    archiveArtifacts artifacts: 'target/htmlReports/**/*', 
+                                    allowEmptyArchive: true,
+                                    fingerprint: true
+                    
+                    // Archive Cucumber JSON reports
+                    archiveArtifacts artifacts: 'target/jsonReports/**/*', 
+                                    allowEmptyArchive: true,
+                                    fingerprint: true
+                    
+                    // Archive TestNG reports
+                    archiveArtifacts artifacts: 'test-output/**/*', 
+                                    allowEmptyArchive: true,
+                                    fingerprint: true
+                    
+                    // Archive screenshots
+                    archiveArtifacts artifacts: 'target/ExtentReports/screenshots/**/*', 
+                                    allowEmptyArchive: true,
+                                    fingerprint: true
+                }
+            }
+        }
+        
+        stage('Publish Test Results') {
+            steps {
+                script {
+                    echo 'Publishing test results...'
+                    
+                    // Publish TestNG results
+                    publishTestNGResults(
+                        testResultsPattern: 'test-output/testng-results.xml',
+                        reportFilenamePattern: 'test-output/**/*.html'
+                    )
+                    
+                    // Publish Cucumber JSON results (if you have Cucumber Reports plugin)
+                    // cucumber(
+                    //     reportTitle: 'NECF Test Results',
+                    //     fileIncludePattern: '**/jsonReport.json',
+                    //     trendsLimit: 10
+                    // )
+                }
+            }
+        }
+    }
+    
+    post {
+        always {
+            script {
+                echo 'Pipeline execution completed. Cleaning up...'
+                
+                // Publish HTML reports (if HTML Publisher plugin is installed)
+                publishHTML([
+                    reportName: 'Extent Reports',
+                    reportDir: 'target/ExtentReports',
+                    reportFiles: 'SparkReport.html',
+                    keepAll: true,
+                    alwaysLinkToLastBuild: true
+                ])
+                
+                publishHTML([
+                    reportName: 'Cucumber HTML Reports',
+                    reportDir: 'target/htmlReports',
+                    reportFiles: 'htmlReport.html',
+                    keepAll: true,
+                    alwaysLinkToLastBuild: true
+                ])
+            }
+        }
+        
+        success {
+            script {
+                echo '✅ Build succeeded! All tests passed.'
+                // Optional: Send success notification
+                // emailext (
+                //     subject: "✅ NECF Test Suite - Build #${env.BUILD_NUMBER} - SUCCESS",
+                //     body: "Build ${env.BUILD_NUMBER} completed successfully.\n\nView results: ${env.BUILD_URL}",
+                //     to: "${env.RECIPIENT_EMAIL}",
+                //     attachLog: false
+                // )
+            }
+        }
+        
+        failure {
+            script {
+                echo ' Build failed! Some tests failed or errors occurred.'
+                // Optional: Send failure notification
+                // emailext (
+                //     subject: " NECF Test Suite - Build #${env.BUILD_NUMBER} - FAILED",
+                //     body: "Build ${env.BUILD_NUMBER} failed.\n\nView results: ${env.BUILD_URL}",
+                //     to: "${env.RECIPIENT_EMAIL}",
+                //     attachLog: true,
+                //     attachmentsPattern: 'target/ExtentReports/**/*'
+                // )
+            }
+        }
+        
+        unstable {
+            script {
+                echo ' Build is unstable! Some tests may have failed.'
+            }
+        }
+    }
+}
+
