@@ -38,6 +38,29 @@
 			<artifactId>selenium-java</artifactId>
 			<version>4.34.0</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.itextpdf/itextpdf -->
+
+		<!-- OpenPDF Core -->
+		<dependency>
+			<groupId>com.github.librepdf</groupId>
+			<artifactId>openpdf</artifactId>
+			<version>3.0.0</version>
+		</dependency>
+
+		<!-- OpenPDF HTML support -->
+		<dependency>
+			<groupId>com.github.librepdf</groupId>
+			<artifactId>openpdf-html</artifactId>
+			<version>3.0.0</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>com.openhtmltopdf</groupId>
+			<artifactId>openhtmltopdf-pdfbox</artifactId>
+			<version>1.0.10</version>
+		</dependency>
+
 
 		<!-- WebDriverManager -->
 		<dependency>

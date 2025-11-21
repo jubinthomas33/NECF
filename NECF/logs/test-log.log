@@ -1395,3 +1395,818 @@ Session ID: a3f26530e0822362e7c3d25fd14b9b1f
 2025-11-21 10:07:34.710 INFO  com.stepDefinitions.Hooks:101 - Driver quit after scenario: Verify NECF website is running
 2025-11-21 10:07:34.733 INFO  com.stepDefinitions.Hooks:130 - ShutdownHook registered successfully.
 2025-11-21 10:07:40.364 INFO  com.stepDefinitions.Hooks:111 - ShutdownHook triggered → Waiting for ExtentReports to finish writing...
+2025-11-21 16:46:07.717 INFO  com.webdrivermanager.DriverManager:34 - Launching Chrome in HEADLESS mode
+2025-11-21 16:46:07.721 INFO  com.stepDefinitions.Hooks:48 - Driver initialized for scenario: Verify NECF website is running
+2025-11-21 16:46:07.851 INFO  com.pages.HomePage:50 - Checking site availability for URL: https://mediaxbook.com/
+2025-11-21 16:46:09.966 INFO  com.pages.HomePage:60 - Server responded with status code: 200
+2025-11-21 16:46:09.966 INFO  com.pages.HomePage:66 - Website is UP
+2025-11-21 16:46:19.569 INFO  com.pages.HomePage:88 - Navigated to URL: https://mediaxbook.com/
+2025-11-21 16:46:19.594 INFO  com.pages.HomePage:105 - Page Load Time: 9565 ms
+2025-11-21 16:46:19.595 INFO  com.pages.HomePage:116 - Verifying URL...
+2025-11-21 16:46:19.615 INFO  com.pages.HomePage:120 - Current URL: https://mediaxbook.com/
+2025-11-21 16:46:19.640 INFO  com.pages.HomePage:133 - Page Title: NECF Global � Marketplace
+2025-11-21 16:46:19.789 INFO  com.stepDefinitions.Hooks:78 - Screenshot attached to report: target/ExtentReports/screenshots/Verify_NECF_website_is_running.png
+2025-11-21 16:46:19.884 INFO  com.stepDefinitions.Hooks:88 - Screenshot attached to report using Base64.
+2025-11-21 16:46:20.152 INFO  com.webdrivermanager.DriverManager:77 - Driver quit successfully
+2025-11-21 16:46:20.152 INFO  com.stepDefinitions.Hooks:101 - Driver quit after scenario: Verify NECF website is running
+2025-11-21 16:46:20.165 INFO  com.stepDefinitions.Hooks:130 - ShutdownHook registered successfully.
+2025-11-21 16:46:22.272 INFO  com.stepDefinitions.Hooks:111 - ShutdownHook triggered ? Waiting for ExtentReports to finish writing...
+2025-11-21 11:22:08.589 INFO  com.webdrivermanager.DriverManager:34 - Launching Chrome in HEADLESS mode
+2025-11-21 11:22:08.605 INFO  com.stepDefinitions.Hooks:48 - Driver initialized for scenario: Verify NECF website is running
+2025-11-21 11:22:09.550 INFO  com.pages.HomePage:50 - Checking site availability for URL: https://mediaxbook.com/
+2025-11-21 11:22:11.385 INFO  com.pages.HomePage:60 - Server responded with status code: 200
+2025-11-21 11:22:11.388 INFO  com.pages.HomePage:66 - Website is UP
+2025-11-21 11:22:21.736 INFO  com.pages.HomePage:88 - Navigated to URL: https://mediaxbook.com/
+2025-11-21 11:22:21.758 INFO  com.pages.HomePage:105 - Page Load Time: 9462 ms
+2025-11-21 11:22:21.760 INFO  com.pages.HomePage:116 - Verifying URL...
+2025-11-21 11:22:21.774 INFO  com.pages.HomePage:120 - Current URL: https://mediaxbook.com/
+2025-11-21 11:22:21.791 INFO  com.pages.HomePage:133 - Page Title: NECF Global – Marketplace
+2025-11-21 11:22:21.943 INFO  com.stepDefinitions.Hooks:78 - Screenshot attached to report: target/ExtentReports/screenshots/Verify_NECF_website_is_running.png
+2025-11-21 11:22:22.014 INFO  com.stepDefinitions.Hooks:88 - Screenshot attached to report using Base64.
+2025-11-21 11:22:22.148 INFO  com.webdrivermanager.DriverManager:77 - Driver quit successfully
+2025-11-21 11:22:22.149 INFO  com.stepDefinitions.Hooks:101 - Driver quit after scenario: Verify NECF website is running
+2025-11-21 11:22:22.169 INFO  com.stepDefinitions.Hooks:130 - ShutdownHook registered successfully.
+2025-11-21 11:22:28.267 INFO  com.stepDefinitions.Hooks:111 - ShutdownHook triggered → Waiting for ExtentReports to finish writing...
+2025-11-21 11:24:18.216 INFO  com.webdrivermanager.DriverManager:34 - Launching Chrome in HEADLESS mode
+2025-11-21 11:24:18.235 INFO  com.stepDefinitions.Hooks:48 - Driver initialized for scenario: Verify NECF website is running
+2025-11-21 11:24:19.027 INFO  com.pages.HomePage:50 - Checking site availability for URL: https://mediaxbook.com/
+2025-11-21 11:24:20.756 INFO  com.pages.HomePage:60 - Server responded with status code: 200
+2025-11-21 11:24:20.758 INFO  com.pages.HomePage:66 - Website is UP
+2025-11-21 11:25:00.165 INFO  com.pages.HomePage:88 - Navigated to URL: https://mediaxbook.com/
+2025-11-21 11:25:00.184 INFO  com.pages.HomePage:105 - Page Load Time: 38546 ms
+2025-11-21 11:25:00.186 INFO  com.pages.HomePage:116 - Verifying URL...
+2025-11-21 11:25:00.195 INFO  com.pages.HomePage:120 - Current URL: https://mediaxbook.com/
+2025-11-21 11:25:00.205 INFO  com.pages.HomePage:133 - Page Title: NECF Global – Marketplace
+2025-11-21 11:25:00.206 INFO  com.pages.HomePage:154 - Verifying the page elements...
+2025-11-21 11:25:00.770 INFO  com.webdrivermanager.DriverManager:77 - Driver quit successfully
+2025-11-21 11:25:00.772 INFO  com.stepDefinitions.Hooks:101 - Driver quit after scenario: Verify NECF website is running
+2025-11-21 11:25:00.795 INFO  com.stepDefinitions.Hooks:130 - ShutdownHook registered successfully.
+2025-11-21 11:25:07.751 INFO  com.stepDefinitions.Hooks:111 - ShutdownHook triggered → Waiting for ExtentReports to finish writing...
+2025-11-21 11:26:01.599 INFO  com.webdrivermanager.DriverManager:34 - Launching Chrome in HEADLESS mode
+2025-11-21 11:26:01.616 INFO  com.stepDefinitions.Hooks:48 - Driver initialized for scenario: Verify NECF website is running
+2025-11-21 11:26:02.477 INFO  com.pages.HomePage:50 - Checking site availability for URL: https://mediaxbook.com/
+2025-11-21 11:26:04.228 INFO  com.pages.HomePage:60 - Server responded with status code: 200
+2025-11-21 11:26:04.230 INFO  com.pages.HomePage:66 - Website is UP
+2025-11-21 11:26:14.628 INFO  com.pages.HomePage:88 - Navigated to URL: https://mediaxbook.com/
+2025-11-21 11:26:14.648 INFO  com.pages.HomePage:105 - Page Load Time: 9552 ms
+2025-11-21 11:26:14.649 INFO  com.pages.HomePage:116 - Verifying URL...
+2025-11-21 11:26:14.667 INFO  com.pages.HomePage:120 - Current URL: https://mediaxbook.com/
+2025-11-21 11:26:14.681 INFO  com.pages.HomePage:133 - Page Title: NECF Global – Marketplace
+2025-11-21 11:26:14.895 INFO  com.stepDefinitions.Hooks:78 - Screenshot attached to report: target/ExtentReports/screenshots/Verify_NECF_website_is_running.png
+2025-11-21 11:26:14.979 INFO  com.stepDefinitions.Hooks:88 - Screenshot attached to report using Base64.
+2025-11-21 11:26:15.067 INFO  com.webdrivermanager.DriverManager:77 - Driver quit successfully
+2025-11-21 11:26:15.068 INFO  com.stepDefinitions.Hooks:101 - Driver quit after scenario: Verify NECF website is running
+2025-11-21 11:26:15.086 INFO  com.stepDefinitions.Hooks:130 - ShutdownHook registered successfully.
+2025-11-21 11:26:20.083 INFO  com.stepDefinitions.Hooks:111 - ShutdownHook triggered → Waiting for ExtentReports to finish writing...
+2025-11-21 11:33:49.904 INFO  com.webdrivermanager.DriverManager:34 - Launching Chrome in HEADLESS mode
+2025-11-21 11:33:49.928 INFO  com.stepDefinitions.Hooks:48 - Driver initialized for scenario: Verify NECF website is running
+2025-11-21 11:33:50.810 INFO  com.pages.HomePage:50 - Checking site availability for URL: https://mediaxbook.com/
+2025-11-21 11:33:53.525 INFO  com.pages.HomePage:60 - Server responded with status code: 200
+2025-11-21 11:33:53.527 INFO  com.pages.HomePage:66 - Website is UP
+2025-11-21 11:34:30.559 INFO  com.pages.HomePage:88 - Navigated to URL: https://mediaxbook.com/
+2025-11-21 11:34:30.582 INFO  com.pages.HomePage:105 - Page Load Time: 36026 ms
+2025-11-21 11:34:30.584 INFO  com.pages.HomePage:116 - Verifying URL...
+2025-11-21 11:34:30.593 INFO  com.pages.HomePage:120 - Current URL: https://mediaxbook.com/
+2025-11-21 11:34:30.603 INFO  com.pages.HomePage:133 - Page Title: NECF Global – Marketplace
+2025-11-21 11:34:30.800 INFO  com.stepDefinitions.Hooks:78 - Screenshot attached to report: target/ExtentReports/screenshots/Verify_NECF_website_is_running.png
+2025-11-21 11:34:30.879 INFO  com.stepDefinitions.Hooks:88 - Screenshot attached to report using Base64.
+2025-11-21 11:34:30.981 INFO  com.webdrivermanager.DriverManager:77 - Driver quit successfully
+2025-11-21 11:34:30.982 INFO  com.stepDefinitions.Hooks:101 - Driver quit after scenario: Verify NECF website is running
+2025-11-21 11:34:31.022 INFO  com.stepDefinitions.Hooks:130 - ShutdownHook registered successfully.
+2025-11-21 11:34:39.631 INFO  com.stepDefinitions.Hooks:111 - ShutdownHook triggered → Waiting for ExtentReports to finish writing...
+2025-11-21 11:38:35.405 INFO  com.webdrivermanager.DriverManager:34 - Launching Chrome in HEADLESS mode
+2025-11-21 11:38:35.423 INFO  com.stepDefinitions.Hooks:48 - Driver initialized for scenario: Verify NECF website is running
+2025-11-21 11:38:36.193 INFO  com.pages.HomePage:50 - Checking site availability for URL: https://mediaxbook.com/
+2025-11-21 11:38:37.576 INFO  com.pages.HomePage:60 - Server responded with status code: 200
+2025-11-21 11:38:37.579 INFO  com.pages.HomePage:66 - Website is UP
+2025-11-21 11:38:46.816 INFO  com.pages.HomePage:88 - Navigated to URL: https://mediaxbook.com/
+2025-11-21 11:38:46.836 INFO  com.pages.HomePage:105 - Page Load Time: 9213 ms
+2025-11-21 11:38:46.838 INFO  com.pages.HomePage:116 - Verifying URL...
+2025-11-21 11:38:46.854 INFO  com.pages.HomePage:120 - Current URL: https://mediaxbook.com/
+2025-11-21 11:38:46.872 INFO  com.pages.HomePage:133 - Page Title: NECF Global – Marketplace
+2025-11-21 11:38:47.038 INFO  com.stepDefinitions.Hooks:78 - Screenshot attached to report: target/ExtentReports/screenshots/Verify_NECF_website_is_running.png
+2025-11-21 11:38:47.119 INFO  com.stepDefinitions.Hooks:88 - Screenshot attached to report using Base64.
+2025-11-21 11:38:47.208 INFO  com.webdrivermanager.DriverManager:77 - Driver quit successfully
+2025-11-21 11:38:47.209 INFO  com.stepDefinitions.Hooks:101 - Driver quit after scenario: Verify NECF website is running
+2025-11-21 11:38:47.241 INFO  com.stepDefinitions.Hooks:130 - ShutdownHook registered successfully.
+2025-11-21 11:38:54.338 INFO  com.stepDefinitions.Hooks:111 - ShutdownHook triggered → Waiting for ExtentReports to finish writing...
+2025-11-21 11:43:55.013 INFO  com.webdrivermanager.DriverManager:34 - Launching Chrome in HEADLESS mode
+2025-11-21 11:43:55.031 INFO  com.stepDefinitions.Hooks:48 - Driver initialized for scenario: Verify NECF website is running
+2025-11-21 11:43:55.801 INFO  com.pages.HomePage:50 - Checking site availability for URL: https://mediaxbook.com/
+2025-11-21 11:43:57.735 INFO  com.pages.HomePage:60 - Server responded with status code: 200
+2025-11-21 11:43:57.737 INFO  com.pages.HomePage:66 - Website is UP
+2025-11-21 11:44:34.971 INFO  com.pages.HomePage:88 - Navigated to URL: https://mediaxbook.com/
+2025-11-21 11:44:34.990 INFO  com.pages.HomePage:105 - Page Load Time: 36221 ms
+2025-11-21 11:44:34.992 INFO  com.pages.HomePage:116 - Verifying URL...
+2025-11-21 11:44:35.003 INFO  com.pages.HomePage:120 - Current URL: https://mediaxbook.com/
+2025-11-21 11:44:35.012 INFO  com.pages.HomePage:133 - Page Title: NECF Global – Marketplace
+2025-11-21 11:44:35.170 INFO  com.stepDefinitions.Hooks:78 - Screenshot attached to report: target/ExtentReports/screenshots/Verify_NECF_website_is_running.png
+2025-11-21 11:44:35.273 INFO  com.stepDefinitions.Hooks:88 - Screenshot attached to report using Base64.
+2025-11-21 11:44:35.416 INFO  com.webdrivermanager.DriverManager:77 - Driver quit successfully
+2025-11-21 11:44:35.417 INFO  com.stepDefinitions.Hooks:101 - Driver quit after scenario: Verify NECF website is running
+2025-11-21 11:44:35.436 INFO  com.stepDefinitions.Hooks:130 - ShutdownHook registered successfully.
+2025-11-21 11:44:40.644 INFO  com.stepDefinitions.Hooks:111 - ShutdownHook triggered → Waiting for ExtentReports to finish writing...
+2025-11-21 11:56:21.807 INFO  com.webdrivermanager.DriverManager:34 - Launching Chrome in HEADLESS mode
+2025-11-21 11:56:21.822 INFO  com.stepDefinitions.Hooks:48 - Driver initialized for scenario: Verify NECF website is running
+2025-11-21 11:56:22.544 INFO  com.pages.HomePage:50 - Checking site availability for URL: https://mediaxbook.com/
+2025-11-21 11:56:27.003 INFO  com.pages.HomePage:60 - Server responded with status code: 200
+2025-11-21 11:56:27.005 INFO  com.pages.HomePage:66 - Website is UP
+2025-11-21 11:56:35.988 INFO  com.pages.HomePage:88 - Navigated to URL: https://mediaxbook.com/
+2025-11-21 11:56:36.004 INFO  com.pages.HomePage:105 - Page Load Time: 8960 ms
+2025-11-21 11:56:36.005 INFO  com.pages.HomePage:116 - Verifying URL...
+2025-11-21 11:56:36.018 INFO  com.pages.HomePage:120 - Current URL: https://mediaxbook.com/
+2025-11-21 11:56:36.031 INFO  com.pages.HomePage:133 - Page Title: NECF Global – Marketplace
+2025-11-21 11:56:36.181 INFO  com.stepDefinitions.Hooks:78 - Screenshot attached to report: target/ExtentReports/screenshots/Verify_NECF_website_is_running.png
+2025-11-21 11:56:36.254 INFO  com.stepDefinitions.Hooks:88 - Screenshot attached to report using Base64.
+2025-11-21 11:56:36.341 INFO  com.webdrivermanager.DriverManager:77 - Driver quit successfully
+2025-11-21 11:56:36.343 INFO  com.stepDefinitions.Hooks:101 - Driver quit after scenario: Verify NECF website is running
+2025-11-21 11:56:36.362 INFO  com.stepDefinitions.Hooks:130 - ShutdownHook registered successfully.
+2025-11-21 11:56:42.852 INFO  com.stepDefinitions.Hooks:111 - ShutdownHook triggered → Waiting for ExtentReports to finish writing...
+2025-11-21 12:15:55.929 INFO  com.webdrivermanager.DriverManager:34 - Launching Chrome in HEADLESS mode
+2025-11-21 12:15:55.945 INFO  com.stepDefinitions.Hooks:48 - Driver initialized for scenario: Verify NECF website is running
+2025-11-21 12:15:56.623 INFO  com.pages.HomePage:50 - Checking site availability for URL: https://mediaxbook.com/
+2025-11-21 12:15:58.382 INFO  com.pages.HomePage:60 - Server responded with status code: 200
+2025-11-21 12:15:58.384 INFO  com.pages.HomePage:66 - Website is UP
+2025-11-21 12:16:08.676 INFO  com.pages.HomePage:88 - Navigated to URL: https://mediaxbook.com/
+2025-11-21 12:16:08.695 INFO  com.pages.HomePage:105 - Page Load Time: 10268 ms
+2025-11-21 12:16:08.696 INFO  com.pages.HomePage:116 - Verifying URL...
+2025-11-21 12:16:08.709 INFO  com.pages.HomePage:120 - Current URL: https://mediaxbook.com/
+2025-11-21 12:16:08.720 INFO  com.pages.HomePage:133 - Page Title: NECF Global – Marketplace
+2025-11-21 12:16:08.971 INFO  com.webdrivermanager.DriverManager:77 - Driver quit successfully
+2025-11-21 12:16:08.972 INFO  com.stepDefinitions.Hooks:79 - Driver quit after scenario: Verify NECF website is running
+2025-11-21 12:16:08.993 INFO  com.stepDefinitions.Hooks:86 - Sending email report after all scenarios...
+2025-11-21 12:16:14.084 INFO  com.utility.EmailReportSender:64 - ========== EMAIL DEBUG START ==========
+2025-11-21 12:16:14.085 WARN  com.utility.EmailReportSender:70 - ⚠️ EMAIL environment variable NOT SET.
+2025-11-21 12:16:14.086 WARN  com.utility.EmailReportSender:76 - ⚠️ PASSWORD environment variable NOT SET.
+2025-11-21 12:16:14.087 WARN  com.utility.EmailReportSender:83 - ⚠️ No RECIPIENT emails found.
+2025-11-21 12:16:14.088 WARN  com.utility.EmailReportSender:89 - ❌ EMAIL SENDING CANCELLED — Missing credentials or recipients.
+2025-11-21 12:21:01.314 INFO  com.webdrivermanager.DriverManager:34 - Launching Chrome in HEADLESS mode
+2025-11-21 12:21:01.324 INFO  com.stepDefinitions.Hooks:48 - Driver initialized for scenario: Verify NECF website is running
+2025-11-21 12:21:01.885 INFO  com.pages.HomePage:50 - Checking site availability for URL: https://mediaxbook.com/
+2025-11-21 12:21:03.958 INFO  com.pages.HomePage:60 - Server responded with status code: 200
+2025-11-21 12:21:03.961 INFO  com.pages.HomePage:66 - Website is UP
+2025-11-21 12:21:13.270 INFO  com.pages.HomePage:88 - Navigated to URL: https://mediaxbook.com/
+2025-11-21 12:21:13.297 INFO  com.pages.HomePage:105 - Page Load Time: 9279 ms
+2025-11-21 12:21:13.299 INFO  com.pages.HomePage:116 - Verifying URL...
+2025-11-21 12:21:13.320 INFO  com.pages.HomePage:120 - Current URL: https://mediaxbook.com/
+2025-11-21 12:21:13.342 INFO  com.pages.HomePage:133 - Page Title: NECF Global – Marketplace
+2025-11-21 12:21:13.689 INFO  com.webdrivermanager.DriverManager:77 - Driver quit successfully
+2025-11-21 12:21:13.690 INFO  com.stepDefinitions.Hooks:79 - Driver quit after scenario: Verify NECF website is running
+2025-11-21 12:21:13.716 INFO  com.stepDefinitions.Hooks:86 - Sending email report after all scenarios...
+2025-11-21 12:21:18.770 INFO  com.utility.EmailReportSender:64 - ========== EMAIL DEBUG START ==========
+2025-11-21 12:21:18.771 INFO  com.utility.EmailReportSender:73 - ✔ EMAIL detected: jubin.thomas@diatoz.com
+2025-11-21 12:21:18.772 INFO  com.utility.EmailReportSender:79 - ✔ PASSWORD detected
+2025-11-21 12:21:18.773 INFO  com.utility.EmailReportSender:86 - ✔ Recipients: jubin.thomas@diatoz.com,jubinthomas33@gmail.com
+2025-11-21 12:21:18.961 INFO  com.utility.EmailReportSender:138 - ✔ Screenshot attached: /mnt/c/Users/jubin/NECF Project/NECF/target/ExtentReports/screenshots/Verify_NECF_website_is_running.png
+2025-11-21 12:21:18.962 INFO  com.utility.EmailReportSender:33 - Resolved report path: target/ExtentReports/SparkReport.html
+2025-11-21 12:21:18.965 WARN  com.utility.EmailReportSender:154 - ⚠️ HTML report not found: /mnt/c/Users/jubin/NECF Project/NECF/target/ExtentReports/SparkReport.html
+2025-11-21 12:21:18.966 INFO  com.utility.EmailReportSender:33 - Resolved report path: target/ExtentReports/ExtentReport.pdf
+2025-11-21 12:21:18.969 WARN  com.utility.EmailReportSender:166 - ⚠️ PDF report not found: /mnt/c/Users/jubin/NECF Project/NECF/target/ExtentReports/ExtentReport.pdf
+2025-11-21 12:21:24.374 INFO  com.utility.EmailReportSender:174 - 📧 ✔ Email sent successfully!
+2025-11-21 12:21:24.375 INFO  com.utility.EmailReportSender:182 - 
+======= EMAIL DEBUG SUMMARY =======
+2025-11-21 12:21:24.377 INFO  com.utility.EmailReportSender:183 - Sender Email Set: true
+2025-11-21 12:21:24.378 INFO  com.utility.EmailReportSender:184 - Password Set: true
+2025-11-21 12:21:24.380 INFO  com.utility.EmailReportSender:185 - Recipients: jubin.thomas@diatoz.com,jubinthomas33@gmail.com
+2025-11-21 12:21:24.381 INFO  com.utility.EmailReportSender:186 - HTML Report Exists: false
+2025-11-21 12:21:24.383 INFO  com.utility.EmailReportSender:187 - PDF Report Exists: false
+2025-11-21 12:21:24.385 INFO  com.utility.EmailReportSender:188 - Screenshots Attached: 1
+2025-11-21 12:21:24.387 INFO  com.utility.EmailReportSender:189 - ===================================
+2025-11-21 12:29:15.245 INFO  com.webdrivermanager.DriverManager:34 - Launching Chrome in HEADLESS mode
+2025-11-21 12:29:15.260 INFO  com.stepDefinitions.Hooks:48 - Driver initialized for scenario: Verify NECF website is running
+2025-11-21 12:29:15.944 INFO  com.pages.HomePage:50 - Checking site availability for URL: https://mediaxbook.com/
+2025-11-21 12:29:17.489 INFO  com.pages.HomePage:60 - Server responded with status code: 200
+2025-11-21 12:29:17.490 INFO  com.pages.HomePage:66 - Website is UP
+2025-11-21 12:29:27.212 INFO  com.pages.HomePage:88 - Navigated to URL: https://mediaxbook.com/
+2025-11-21 12:29:27.231 INFO  com.pages.HomePage:105 - Page Load Time: 9697 ms
+2025-11-21 12:29:27.234 INFO  com.pages.HomePage:116 - Verifying URL...
+2025-11-21 12:29:27.255 INFO  com.pages.HomePage:120 - Current URL: https://mediaxbook.com/
+2025-11-21 12:29:27.274 INFO  com.pages.HomePage:133 - Page Title: NECF Global – Marketplace
+2025-11-21 12:29:27.418 INFO  com.stepDefinitions.Hooks:77 - Screenshot attached to report: screenshots/Verify_NECF_website_is_running.png
+2025-11-21 12:29:27.499 INFO  com.stepDefinitions.Hooks:87 - Screenshot attached to report using Base64.
+2025-11-21 12:29:27.590 INFO  com.webdrivermanager.DriverManager:77 - Driver quit successfully
+2025-11-21 12:29:27.591 INFO  com.stepDefinitions.Hooks:100 - Driver quit after scenario: Verify NECF website is running
+2025-11-21 12:29:27.610 INFO  com.stepDefinitions.Hooks:107 - Sending email report after all scenarios...
+2025-11-21 12:29:32.707 INFO  com.utility.EmailReportSender:61 - ========== EMAIL DEBUG START ==========
+2025-11-21 12:29:32.708 INFO  com.utility.EmailReportSender:68 - ✔ EMAIL detected: jubin.thomas@diatoz.com
+2025-11-21 12:29:32.710 INFO  com.utility.EmailReportSender:73 - ✔ PASSWORD detected
+2025-11-21 12:29:32.711 INFO  com.utility.EmailReportSender:79 - ✔ Recipients: jubin.thomas@diatoz.com,jubinthomas33@gmail.com
+2025-11-21 12:29:32.895 INFO  com.utility.EmailReportSender:122 - Checking screenshot: /mnt/c/Users/jubin/NECF Project/NECF/target/ExtentReports/screenshots/Verify_NECF_website_is_running.png
+2025-11-21 12:29:32.917 INFO  com.utility.EmailReportSender:129 - ✔ Screenshot attached: /mnt/c/Users/jubin/NECF Project/NECF/target/ExtentReports/screenshots/Verify_NECF_website_is_running.png
+2025-11-21 12:29:32.919 INFO  com.utility.EmailReportSender:32 - Resolved report path: /mnt/c/Users/jubin/NECF Project/NECF/target/ExtentReports/SparkReport.html
+2025-11-21 12:29:32.923 WARN  com.utility.EmailReportSender:143 - ⚠️ HTML report not found: /mnt/c/Users/jubin/NECF Project/NECF/target/ExtentReports/SparkReport.html
+2025-11-21 12:29:32.924 INFO  com.utility.EmailReportSender:32 - Resolved report path: /mnt/c/Users/jubin/NECF Project/NECF/target/ExtentReports/ExtentReport.pdf
+2025-11-21 12:29:32.928 WARN  com.utility.EmailReportSender:153 - ⚠️ PDF report not found: /mnt/c/Users/jubin/NECF Project/NECF/target/ExtentReports/ExtentReport.pdf
+2025-11-21 12:29:38.263 INFO  com.utility.EmailReportSender:160 - 📧 ✔ Email sent successfully!
+2025-11-21 12:29:38.264 INFO  com.utility.EmailReportSender:166 - 
+======= EMAIL DEBUG SUMMARY =======
+2025-11-21 12:29:38.266 INFO  com.utility.EmailReportSender:167 - Sender Email Set: true
+2025-11-21 12:29:38.267 INFO  com.utility.EmailReportSender:168 - Password Set: true
+2025-11-21 12:29:38.268 INFO  com.utility.EmailReportSender:169 - Recipients: jubin.thomas@diatoz.com,jubinthomas33@gmail.com
+2025-11-21 12:29:38.270 INFO  com.utility.EmailReportSender:170 - HTML Report Exists: false
+2025-11-21 12:29:38.271 INFO  com.utility.EmailReportSender:171 - PDF Report Exists: false
+2025-11-21 12:29:38.273 INFO  com.utility.EmailReportSender:172 - Screenshots Attached: 1
+2025-11-21 12:29:38.274 INFO  com.utility.EmailReportSender:173 - ===================================
+2025-11-21 12:29:38.276 INFO  com.utility.EmailReportSender:179 - ========== EMAIL DEBUG END ==========
+2025-11-21 12:40:51.807 INFO  com.webdrivermanager.DriverManager:33 - Launching Chrome in HEADLESS mode
+2025-11-21 12:40:51.823 INFO  com.stepDefinitions.Hooks:49 - Driver initialized for scenario: Verify NECF website is running
+2025-11-21 12:40:52.483 INFO  com.pages.HomePage:50 - Checking site availability for URL: https://mediaxbook.com/
+2025-11-21 12:40:54.160 INFO  com.pages.HomePage:60 - Server responded with status code: 200
+2025-11-21 12:40:54.162 INFO  com.pages.HomePage:66 - Website is UP
+2025-11-21 12:41:31.060 INFO  com.pages.HomePage:88 - Navigated to URL: https://mediaxbook.com/
+2025-11-21 12:41:31.080 INFO  com.pages.HomePage:105 - Page Load Time: 35721 ms
+2025-11-21 12:41:31.082 INFO  com.pages.HomePage:116 - Verifying URL...
+2025-11-21 12:41:31.093 INFO  com.pages.HomePage:120 - Current URL: https://mediaxbook.com/
+2025-11-21 12:41:31.105 INFO  com.pages.HomePage:133 - Page Title: NECF Global – Marketplace
+2025-11-21 12:41:31.268 INFO  com.stepDefinitions.Hooks:78 - Screenshot attached to report: screenshots/Verify_NECF_website_is_running.png
+2025-11-21 12:41:31.340 INFO  com.stepDefinitions.Hooks:88 - Screenshot attached to report using Base64.
+2025-11-21 12:41:31.431 INFO  com.webdrivermanager.DriverManager:76 - Driver quit successfully
+2025-11-21 12:41:31.432 INFO  com.stepDefinitions.Hooks:101 - Driver quit after scenario: Verify NECF website is running
+2025-11-21 12:41:31.453 INFO  com.stepDefinitions.Hooks:108 - Flushing ExtentReports before sending email...
+2025-11-21 12:41:35.454 INFO  com.stepDefinitions.Hooks:111 - Sending email report after all scenarios...
+2025-11-21 12:41:35.556 INFO  com.utility.EmailReportSender:64 - ========== EMAIL DEBUG START ==========
+2025-11-21 12:41:35.557 INFO  com.utility.EmailReportSender:72 - ✔ EMAIL detected: jubin.thomas@diatoz.com
+2025-11-21 12:41:35.558 INFO  com.utility.EmailReportSender:78 - ✔ PASSWORD detected
+2025-11-21 12:41:35.559 INFO  com.utility.EmailReportSender:85 - ✔ Recipients: jubin.thomas@diatoz.com,jubinthomas33@gmail.com
+2025-11-21 12:41:35.853 INFO  com.utility.EmailReportSender:137 - Checking screenshot: /mnt/c/Users/jubin/NECF Project/NECF/target/ExtentReports/screenshots/Verify_NECF_website_is_running.png
+2025-11-21 12:41:35.873 INFO  com.utility.EmailReportSender:144 - ✔ Screenshot attached: /mnt/c/Users/jubin/NECF Project/NECF/target/ExtentReports/screenshots/Verify_NECF_website_is_running.png
+2025-11-21 12:41:35.874 INFO  com.utility.EmailReportSender:34 - Resolved report path: /mnt/c/Users/jubin/NECF Project/NECF/target/ExtentReports/SparkReport.html
+2025-11-21 12:41:35.879 INFO  com.utility.EmailReportSender:159 - ✔ HTML report attached: /mnt/c/Users/jubin/NECF Project/NECF/target/ExtentReports/SparkReport.html
+2025-11-21 12:41:35.880 INFO  com.utility.EmailReportSender:34 - Resolved report path: /mnt/c/Users/jubin/NECF Project/NECF/target/ExtentReports/ExtentReport.pdf
+2025-11-21 12:41:35.883 WARN  com.utility.EmailReportSender:174 - ⚠️ PDF report not found: /mnt/c/Users/jubin/NECF Project/NECF/target/ExtentReports/ExtentReport.pdf
+2025-11-21 12:41:41.112 INFO  com.utility.EmailReportSender:183 - 📧 ✔ Email sent successfully!
+2025-11-21 12:41:41.114 INFO  com.utility.EmailReportSender:191 - 
+======= EMAIL DEBUG SUMMARY =======
+2025-11-21 12:41:41.116 INFO  com.utility.EmailReportSender:192 - Sender Email Set: true
+2025-11-21 12:41:41.118 INFO  com.utility.EmailReportSender:193 - Password Set: true
+2025-11-21 12:41:41.120 INFO  com.utility.EmailReportSender:194 - Recipients: jubin.thomas@diatoz.com,jubinthomas33@gmail.com
+2025-11-21 12:41:41.122 INFO  com.utility.EmailReportSender:195 - HTML Report Exists: true
+2025-11-21 12:41:41.123 INFO  com.utility.EmailReportSender:196 - PDF Report Exists: false
+2025-11-21 12:41:41.124 INFO  com.utility.EmailReportSender:197 - Screenshots Attached: 1
+2025-11-21 12:41:41.126 INFO  com.utility.EmailReportSender:198 - ===================================
+2025-11-21 12:41:41.127 INFO  com.utility.EmailReportSender:204 - ========== EMAIL DEBUG END ==========
+2025-11-21 13:07:46.391 INFO  com.webdrivermanager.DriverManager:33 - Launching Chrome in HEADLESS mode
+2025-11-21 13:07:46.411 INFO  com.stepDefinitions.Hooks:39 - Driver initialized for scenario: Verify NECF website is running
+2025-11-21 13:07:47.001 INFO  com.pages.HomePage:50 - Checking site availability for URL: https://mediaxbook.com/
+2025-11-21 13:07:49.108 INFO  com.pages.HomePage:60 - Server responded with status code: 200
+2025-11-21 13:07:49.109 INFO  com.pages.HomePage:66 - Website is UP
+2025-11-21 13:07:58.153 INFO  com.pages.HomePage:88 - Navigated to URL: https://mediaxbook.com/
+2025-11-21 13:07:58.172 INFO  com.pages.HomePage:105 - Page Load Time: 9023 ms
+2025-11-21 13:07:58.174 INFO  com.pages.HomePage:116 - Verifying URL...
+2025-11-21 13:07:58.189 INFO  com.pages.HomePage:120 - Current URL: https://mediaxbook.com/
+2025-11-21 13:07:58.207 INFO  com.pages.HomePage:133 - Page Title: NECF Global – Marketplace
+2025-11-21 13:07:58.549 INFO  com.webdrivermanager.DriverManager:76 - Driver quit successfully
+2025-11-21 13:07:58.550 INFO  com.stepDefinitions.Hooks:68 - Driver quit after scenario: Verify NECF website is running
+2025-11-21 13:07:58.574 INFO  com.stepDefinitions.Hooks:75 - Flushing ExtentReports...
+2025-11-21 13:08:03.391 ERROR com.utility.EmailReportSender:61 - ❌ PDF generation failed: Can't load the XML resource (using TRaX transformer). org.xml.sax.SAXParseException; lineNumber: 29; columnNumber: 36; The entity name must immediately follow the '&' in the entity reference.
+com.openhtmltopdf.util.XRRuntimeException: Can't load the XML resource (using TRaX transformer). org.xml.sax.SAXParseException; lineNumber: 29; columnNumber: 36; The entity name must immediately follow the '&' in the entity reference.
+	at com.openhtmltopdf.resource.XMLResource$XMLResourceBuilder.createXMLResource(XMLResource.java:254) ~[openhtmltopdf-core-1.0.10.jar:?]
+	at com.openhtmltopdf.resource.XMLResource$XMLResourceBuilder.access$100(XMLResource.java:145) ~[openhtmltopdf-core-1.0.10.jar:?]
+	at com.openhtmltopdf.resource.XMLResource.load(XMLResource.java:75) ~[openhtmltopdf-core-1.0.10.jar:?]
+	at com.openhtmltopdf.swing.NaiveUserAgent.getXMLResource(NaiveUserAgent.java:410) ~[openhtmltopdf-core-1.0.10.jar:?]
+	at com.openhtmltopdf.pdfboxout.PdfBoxRenderer.loadDocument(PdfBoxRenderer.java:298) ~[openhtmltopdf-pdfbox-1.0.10.jar:?]
+	at com.openhtmltopdf.pdfboxout.PdfBoxRenderer.setDocumentP(PdfBoxRenderer.java:311) ~[openhtmltopdf-pdfbox-1.0.10.jar:?]
+	at com.openhtmltopdf.pdfboxout.PdfBoxRenderer.<init>(PdfBoxRenderer.java:266) ~[openhtmltopdf-pdfbox-1.0.10.jar:?]
+	at com.openhtmltopdf.pdfboxout.PdfRendererBuilder.buildPdfRenderer(PdfRendererBuilder.java:69) ~[openhtmltopdf-pdfbox-1.0.10.jar:?]
+	at com.openhtmltopdf.pdfboxout.PdfRendererBuilder.run(PdfRendererBuilder.java:44) ~[openhtmltopdf-pdfbox-1.0.10.jar:?]
+	at com.utility.EmailReportSender.generatePdfFromHtml(EmailReportSender.java:58) ~[test-classes/:?]
+	at com.stepDefinitions.Hooks.flushReportsAndSendEmail(Hooks.java:82) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-7.28.2.jar:7.28.2]
+	at io.cucumber.java.Invoker.invokeStatic(Invoker.java:80) ~[cucumber-java-7.28.2.jar:7.28.2]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:45) ~[cucumber-java-7.28.2.jar:7.28.2]
+	at io.cucumber.java.JavaStaticHookDefinition.execute(JavaStaticHookDefinition.java:49) ~[cucumber-java-7.28.2.jar:7.28.2]
+	at io.cucumber.core.runner.Runner.executeHook(Runner.java:113) ~[cucumber-core-7.28.2.jar:7.28.2]
+	at io.cucumber.core.runner.Runner.lambda$executeHooks$3(Runner.java:100) ~[cucumber-core-7.28.2.jar:7.28.2]
+	at io.cucumber.core.runner.ThrowableCollector.execute(ThrowableCollector.java:21) ~[cucumber-core-7.28.2.jar:7.28.2]
+	at io.cucumber.core.runner.Runner.executeHooks(Runner.java:100) ~[cucumber-core-7.28.2.jar:7.28.2]
+	at io.cucumber.core.runner.Runner.runAfterAllHooks(Runner.java:94) ~[cucumber-core-7.28.2.jar:7.28.2]
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) ~[cucumber-core-7.28.2.jar:7.28.2]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runAfterAllHooks(CucumberExecutionContext.java:98) ~[cucumber-core-7.28.2.jar:7.28.2]
+	at io.cucumber.testng.TestNGCucumberRunner.finish(TestNGCucumberRunner.java:146) ~[cucumber-testng-7.28.2.jar:7.28.2]
+	at io.cucumber.testng.AbstractTestNGCucumberTests.tearDownClass(AbstractTestNGCucumberTests.java:57) ~[cucumber-testng-7.28.2.jar:7.28.2]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassConfigurations(TestMethodWorker.java:238) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:223) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:137) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1541) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308) [surefire-testng-3.3.0.jar:3.3.0]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71) [surefire-testng-3.3.0.jar:3.3.0]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113) [surefire-testng-3.3.0.jar:3.3.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.3.0.jar:3.3.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.3.0.jar:3.3.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.3.0.jar:3.3.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.3.0.jar:3.3.0]
+Caused by: javax.xml.transform.TransformerException: org.xml.sax.SAXParseException; lineNumber: 29; columnNumber: 36; The entity name must immediately follow the '&' in the entity reference.
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:787) ~[?:?]
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:371) ~[?:?]
+	at com.openhtmltopdf.resource.XMLResource$XMLResourceBuilder.createXMLResource(XMLResource.java:251) ~[openhtmltopdf-core-1.0.10.jar:?]
+	... 58 more
+Caused by: org.xml.sax.SAXParseException: The entity name must immediately follow the '&' in the entity reference.
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1243) ~[?:?]
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:635) ~[?:?]
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(TransformerImpl.java:688) ~[?:?]
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:775) ~[?:?]
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:371) ~[?:?]
+	at com.openhtmltopdf.resource.XMLResource$XMLResourceBuilder.createXMLResource(XMLResource.java:251) ~[openhtmltopdf-core-1.0.10.jar:?]
+	... 58 more
+2025-11-21 13:08:03.425 INFO  com.stepDefinitions.Hooks:87 - Sending email report...
+2025-11-21 13:08:03.426 INFO  com.utility.EmailReportSender:67 - ========== EMAIL DEBUG START ==========
+2025-11-21 13:08:03.724 INFO  com.utility.EmailReportSender:115 - ✔ Screenshot attached: /mnt/c/Users/jubin/NECF Project/NECF/target/ExtentReports/screenshots/Verify_NECF_website_is_running.png
+2025-11-21 13:08:03.729 INFO  com.utility.EmailReportSender:125 - ✔ HTML report attached
+2025-11-21 13:08:03.733 INFO  com.utility.EmailReportSender:133 - ✔ PDF report attached
+2025-11-21 13:08:10.932 INFO  com.utility.EmailReportSender:139 - 📧 ✔ Email sent successfully!
+2025-11-21 13:08:10.933 INFO  com.utility.EmailReportSender:145 - ========== EMAIL DEBUG END ==========
+2025-11-21 14:32:24.518 INFO  com.webdrivermanager.DriverManager:33 - Launching Chrome in HEADLESS mode
+2025-11-21 14:32:24.533 INFO  com.stepDefinitions.Hooks:39 - Driver initialized for scenario: Verify NECF website is running
+2025-11-21 14:32:24.922 INFO  com.pages.HomePage:50 - Checking site availability for URL: https://mediaxbook.com/
+2025-11-21 14:32:27.021 INFO  com.pages.HomePage:60 - Server responded with status code: 200
+2025-11-21 14:32:27.023 INFO  com.pages.HomePage:66 - Website is UP
+2025-11-21 14:32:40.103 INFO  com.pages.HomePage:88 - Navigated to URL: https://mediaxbook.com/
+2025-11-21 14:32:40.119 INFO  com.pages.HomePage:105 - Page Load Time: 12350 ms
+2025-11-21 14:32:40.120 INFO  com.pages.HomePage:116 - Verifying URL...
+2025-11-21 14:32:40.135 INFO  com.pages.HomePage:120 - Current URL: https://mediaxbook.com/
+2025-11-21 14:32:40.151 INFO  com.pages.HomePage:133 - Page Title: NECF Global – Marketplace
+2025-11-21 14:32:40.484 INFO  com.webdrivermanager.DriverManager:76 - Driver quit successfully
+2025-11-21 14:32:40.485 INFO  com.stepDefinitions.Hooks:68 - Driver quit after scenario: Verify NECF website is running
+2025-11-21 14:32:40.503 INFO  com.stepDefinitions.Hooks:75 - Flushing ExtentReports...
+2025-11-21 14:32:44.983 ERROR com.utility.EmailReportSender:61 - ❌ PDF generation failed: Can't load the XML resource (using TRaX transformer). org.xml.sax.SAXParseException; lineNumber: 29; columnNumber: 36; The entity name must immediately follow the '&' in the entity reference.
+com.openhtmltopdf.util.XRRuntimeException: Can't load the XML resource (using TRaX transformer). org.xml.sax.SAXParseException; lineNumber: 29; columnNumber: 36; The entity name must immediately follow the '&' in the entity reference.
+	at com.openhtmltopdf.resource.XMLResource$XMLResourceBuilder.createXMLResource(XMLResource.java:254) ~[openhtmltopdf-core-1.0.10.jar:?]
+	at com.openhtmltopdf.resource.XMLResource$XMLResourceBuilder.access$100(XMLResource.java:145) ~[openhtmltopdf-core-1.0.10.jar:?]
+	at com.openhtmltopdf.resource.XMLResource.load(XMLResource.java:75) ~[openhtmltopdf-core-1.0.10.jar:?]
+	at com.openhtmltopdf.swing.NaiveUserAgent.getXMLResource(NaiveUserAgent.java:410) ~[openhtmltopdf-core-1.0.10.jar:?]
+	at com.openhtmltopdf.pdfboxout.PdfBoxRenderer.loadDocument(PdfBoxRenderer.java:298) ~[openhtmltopdf-pdfbox-1.0.10.jar:?]
+	at com.openhtmltopdf.pdfboxout.PdfBoxRenderer.setDocumentP(PdfBoxRenderer.java:311) ~[openhtmltopdf-pdfbox-1.0.10.jar:?]
+	at com.openhtmltopdf.pdfboxout.PdfBoxRenderer.<init>(PdfBoxRenderer.java:266) ~[openhtmltopdf-pdfbox-1.0.10.jar:?]
+	at com.openhtmltopdf.pdfboxout.PdfRendererBuilder.buildPdfRenderer(PdfRendererBuilder.java:69) ~[openhtmltopdf-pdfbox-1.0.10.jar:?]
+	at com.openhtmltopdf.pdfboxout.PdfRendererBuilder.run(PdfRendererBuilder.java:44) ~[openhtmltopdf-pdfbox-1.0.10.jar:?]
+	at com.utility.EmailReportSender.generatePdfFromHtml(EmailReportSender.java:58) ~[test-classes/:?]
+	at com.stepDefinitions.Hooks.flushReportsAndSendEmail(Hooks.java:82) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-7.28.2.jar:7.28.2]
+	at io.cucumber.java.Invoker.invokeStatic(Invoker.java:80) ~[cucumber-java-7.28.2.jar:7.28.2]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:45) ~[cucumber-java-7.28.2.jar:7.28.2]
+	at io.cucumber.java.JavaStaticHookDefinition.execute(JavaStaticHookDefinition.java:49) ~[cucumber-java-7.28.2.jar:7.28.2]
+	at io.cucumber.core.runner.Runner.executeHook(Runner.java:113) ~[cucumber-core-7.28.2.jar:7.28.2]
+	at io.cucumber.core.runner.Runner.lambda$executeHooks$3(Runner.java:100) ~[cucumber-core-7.28.2.jar:7.28.2]
+	at io.cucumber.core.runner.ThrowableCollector.execute(ThrowableCollector.java:21) ~[cucumber-core-7.28.2.jar:7.28.2]
+	at io.cucumber.core.runner.Runner.executeHooks(Runner.java:100) ~[cucumber-core-7.28.2.jar:7.28.2]
+	at io.cucumber.core.runner.Runner.runAfterAllHooks(Runner.java:94) ~[cucumber-core-7.28.2.jar:7.28.2]
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) ~[cucumber-core-7.28.2.jar:7.28.2]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runAfterAllHooks(CucumberExecutionContext.java:98) ~[cucumber-core-7.28.2.jar:7.28.2]
+	at io.cucumber.testng.TestNGCucumberRunner.finish(TestNGCucumberRunner.java:146) ~[cucumber-testng-7.28.2.jar:7.28.2]
+	at io.cucumber.testng.AbstractTestNGCucumberTests.tearDownClass(AbstractTestNGCucumberTests.java:57) ~[cucumber-testng-7.28.2.jar:7.28.2]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassConfigurations(TestMethodWorker.java:238) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:223) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:137) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1541) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308) [surefire-testng-3.3.0.jar:3.3.0]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71) [surefire-testng-3.3.0.jar:3.3.0]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113) [surefire-testng-3.3.0.jar:3.3.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.3.0.jar:3.3.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.3.0.jar:3.3.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.3.0.jar:3.3.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.3.0.jar:3.3.0]
+Caused by: javax.xml.transform.TransformerException: org.xml.sax.SAXParseException; lineNumber: 29; columnNumber: 36; The entity name must immediately follow the '&' in the entity reference.
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:787) ~[?:?]
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:371) ~[?:?]
+	at com.openhtmltopdf.resource.XMLResource$XMLResourceBuilder.createXMLResource(XMLResource.java:251) ~[openhtmltopdf-core-1.0.10.jar:?]
+	... 58 more
+Caused by: org.xml.sax.SAXParseException: The entity name must immediately follow the '&' in the entity reference.
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1243) ~[?:?]
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:635) ~[?:?]
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(TransformerImpl.java:688) ~[?:?]
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:775) ~[?:?]
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:371) ~[?:?]
+	at com.openhtmltopdf.resource.XMLResource$XMLResourceBuilder.createXMLResource(XMLResource.java:251) ~[openhtmltopdf-core-1.0.10.jar:?]
+	... 58 more
+2025-11-21 14:32:44.998 INFO  com.stepDefinitions.Hooks:87 - Sending email report...
+2025-11-21 14:32:44.999 INFO  com.utility.EmailReportSender:67 - ========== EMAIL DEBUG START ==========
+2025-11-21 14:32:45.000 WARN  com.utility.EmailReportSender:70 - ⚠️ EMAIL env variable NOT SET.
+2025-11-21 14:32:45.000 WARN  com.utility.EmailReportSender:71 - ⚠️ PASSWORD env variable NOT SET.
+2025-11-21 14:32:45.001 WARN  com.utility.EmailReportSender:73 - ⚠️ No recipients found.
+2025-11-21 14:32:45.001 INFO  com.utility.EmailReportSender:75 - ❌ EMAIL SENDING CANCELLED.
+2025-11-21 14:32:45.001 INFO  com.utility.EmailReportSender:75 - ========== EMAIL DEBUG END ==========
+2025-11-21 14:35:11.219 INFO  com.webdrivermanager.DriverManager:33 - Launching Chrome in HEADLESS mode
+2025-11-21 14:35:11.238 INFO  com.stepDefinitions.Hooks:39 - Driver initialized for scenario: Verify NECF website is running
+2025-11-21 14:35:11.879 INFO  com.pages.HomePage:50 - Checking site availability for URL: https://mediaxbook.com/
+2025-11-21 14:35:14.222 INFO  com.pages.HomePage:60 - Server responded with status code: 200
+2025-11-21 14:35:14.225 INFO  com.pages.HomePage:66 - Website is UP
+2025-11-21 14:35:27.510 INFO  com.pages.HomePage:88 - Navigated to URL: https://mediaxbook.com/
+2025-11-21 14:35:27.535 INFO  com.pages.HomePage:105 - Page Load Time: 12289 ms
+2025-11-21 14:35:27.537 INFO  com.pages.HomePage:116 - Verifying URL...
+2025-11-21 14:35:27.555 INFO  com.pages.HomePage:120 - Current URL: https://mediaxbook.com/
+2025-11-21 14:35:27.575 INFO  com.pages.HomePage:133 - Page Title: NECF Global – Marketplace
+2025-11-21 14:35:27.859 INFO  com.webdrivermanager.DriverManager:76 - Driver quit successfully
+2025-11-21 14:35:27.860 INFO  com.stepDefinitions.Hooks:68 - Driver quit after scenario: Verify NECF website is running
+2025-11-21 14:35:27.883 INFO  com.stepDefinitions.Hooks:75 - Flushing ExtentReports...
+2025-11-21 14:35:32.745 ERROR com.utility.EmailReportSender:61 - ❌ PDF generation failed: Can't load the XML resource (using TRaX transformer). org.xml.sax.SAXParseException; lineNumber: 29; columnNumber: 36; The entity name must immediately follow the '&' in the entity reference.
+com.openhtmltopdf.util.XRRuntimeException: Can't load the XML resource (using TRaX transformer). org.xml.sax.SAXParseException; lineNumber: 29; columnNumber: 36; The entity name must immediately follow the '&' in the entity reference.
+	at com.openhtmltopdf.resource.XMLResource$XMLResourceBuilder.createXMLResource(XMLResource.java:254) ~[openhtmltopdf-core-1.0.10.jar:?]
+	at com.openhtmltopdf.resource.XMLResource$XMLResourceBuilder.access$100(XMLResource.java:145) ~[openhtmltopdf-core-1.0.10.jar:?]
+	at com.openhtmltopdf.resource.XMLResource.load(XMLResource.java:75) ~[openhtmltopdf-core-1.0.10.jar:?]
+	at com.openhtmltopdf.swing.NaiveUserAgent.getXMLResource(NaiveUserAgent.java:410) ~[openhtmltopdf-core-1.0.10.jar:?]
+	at com.openhtmltopdf.pdfboxout.PdfBoxRenderer.loadDocument(PdfBoxRenderer.java:298) ~[openhtmltopdf-pdfbox-1.0.10.jar:?]
+	at com.openhtmltopdf.pdfboxout.PdfBoxRenderer.setDocumentP(PdfBoxRenderer.java:311) ~[openhtmltopdf-pdfbox-1.0.10.jar:?]
+	at com.openhtmltopdf.pdfboxout.PdfBoxRenderer.<init>(PdfBoxRenderer.java:266) ~[openhtmltopdf-pdfbox-1.0.10.jar:?]
+	at com.openhtmltopdf.pdfboxout.PdfRendererBuilder.buildPdfRenderer(PdfRendererBuilder.java:69) ~[openhtmltopdf-pdfbox-1.0.10.jar:?]
+	at com.openhtmltopdf.pdfboxout.PdfRendererBuilder.run(PdfRendererBuilder.java:44) ~[openhtmltopdf-pdfbox-1.0.10.jar:?]
+	at com.utility.EmailReportSender.generatePdfFromHtml(EmailReportSender.java:58) ~[test-classes/:?]
+	at com.stepDefinitions.Hooks.flushReportsAndSendEmail(Hooks.java:82) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-7.28.2.jar:7.28.2]
+	at io.cucumber.java.Invoker.invokeStatic(Invoker.java:80) ~[cucumber-java-7.28.2.jar:7.28.2]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:45) ~[cucumber-java-7.28.2.jar:7.28.2]
+	at io.cucumber.java.JavaStaticHookDefinition.execute(JavaStaticHookDefinition.java:49) ~[cucumber-java-7.28.2.jar:7.28.2]
+	at io.cucumber.core.runner.Runner.executeHook(Runner.java:113) ~[cucumber-core-7.28.2.jar:7.28.2]
+	at io.cucumber.core.runner.Runner.lambda$executeHooks$3(Runner.java:100) ~[cucumber-core-7.28.2.jar:7.28.2]
+	at io.cucumber.core.runner.ThrowableCollector.execute(ThrowableCollector.java:21) ~[cucumber-core-7.28.2.jar:7.28.2]
+	at io.cucumber.core.runner.Runner.executeHooks(Runner.java:100) ~[cucumber-core-7.28.2.jar:7.28.2]
+	at io.cucumber.core.runner.Runner.runAfterAllHooks(Runner.java:94) ~[cucumber-core-7.28.2.jar:7.28.2]
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) ~[cucumber-core-7.28.2.jar:7.28.2]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runAfterAllHooks(CucumberExecutionContext.java:98) ~[cucumber-core-7.28.2.jar:7.28.2]
+	at io.cucumber.testng.TestNGCucumberRunner.finish(TestNGCucumberRunner.java:146) ~[cucumber-testng-7.28.2.jar:7.28.2]
+	at io.cucumber.testng.AbstractTestNGCucumberTests.tearDownClass(AbstractTestNGCucumberTests.java:57) ~[cucumber-testng-7.28.2.jar:7.28.2]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassConfigurations(TestMethodWorker.java:238) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:223) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:137) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1541) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308) [surefire-testng-3.3.0.jar:3.3.0]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71) [surefire-testng-3.3.0.jar:3.3.0]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113) [surefire-testng-3.3.0.jar:3.3.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.3.0.jar:3.3.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.3.0.jar:3.3.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.3.0.jar:3.3.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.3.0.jar:3.3.0]
+Caused by: javax.xml.transform.TransformerException: org.xml.sax.SAXParseException; lineNumber: 29; columnNumber: 36; The entity name must immediately follow the '&' in the entity reference.
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:787) ~[?:?]
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:371) ~[?:?]
+	at com.openhtmltopdf.resource.XMLResource$XMLResourceBuilder.createXMLResource(XMLResource.java:251) ~[openhtmltopdf-core-1.0.10.jar:?]
+	... 58 more
+Caused by: org.xml.sax.SAXParseException: The entity name must immediately follow the '&' in the entity reference.
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1243) ~[?:?]
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:635) ~[?:?]
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(TransformerImpl.java:688) ~[?:?]
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:775) ~[?:?]
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:371) ~[?:?]
+	at com.openhtmltopdf.resource.XMLResource$XMLResourceBuilder.createXMLResource(XMLResource.java:251) ~[openhtmltopdf-core-1.0.10.jar:?]
+	... 58 more
+2025-11-21 14:35:32.764 INFO  com.stepDefinitions.Hooks:87 - Sending email report...
+2025-11-21 14:35:32.765 INFO  com.utility.EmailReportSender:67 - ========== EMAIL DEBUG START ==========
+2025-11-21 14:35:33.062 INFO  com.utility.EmailReportSender:115 - ✔ Screenshot attached: /mnt/c/Users/jubin/NECF Project/NECF/target/ExtentReports/screenshots/Verify_NECF_website_is_running.png
+2025-11-21 14:35:33.067 INFO  com.utility.EmailReportSender:125 - ✔ HTML report attached
+2025-11-21 14:35:33.071 INFO  com.utility.EmailReportSender:133 - ✔ PDF report attached
+2025-11-21 14:35:40.007 INFO  com.utility.EmailReportSender:139 - 📧 ✔ Email sent successfully!
+2025-11-21 14:35:40.009 INFO  com.utility.EmailReportSender:145 - ========== EMAIL DEBUG END ==========
+2025-11-21 20:10:37.266 INFO  com.webdrivermanager.DriverManager:33 - Launching Chrome in HEADLESS mode
+2025-11-21 20:10:37.269 INFO  com.stepDefinitions.Hooks:39 - Driver initialized for scenario: Verify NECF website is running
+2025-11-21 20:10:37.399 INFO  com.pages.HomePage:50 - Checking site availability for URL: https://mediaxbook.com/
+2025-11-21 20:10:39.152 INFO  com.pages.HomePage:60 - Server responded with status code: 200
+2025-11-21 20:10:39.153 INFO  com.pages.HomePage:66 - Website is UP
+2025-11-21 20:10:52.616 INFO  com.pages.HomePage:88 - Navigated to URL: https://mediaxbook.com/
+2025-11-21 20:10:52.645 INFO  com.pages.HomePage:105 - Page Load Time: 13427 ms
+2025-11-21 20:10:52.646 INFO  com.pages.HomePage:116 - Verifying URL...
+2025-11-21 20:10:52.671 INFO  com.pages.HomePage:120 - Current URL: https://mediaxbook.com/
+2025-11-21 20:10:52.693 INFO  com.pages.HomePage:133 - Page Title: NECF Global – Marketplace
+2025-11-21 20:10:53.748 INFO  com.webdrivermanager.DriverManager:76 - Driver quit successfully
+2025-11-21 20:10:53.749 INFO  com.stepDefinitions.Hooks:68 - Driver quit after scenario: Verify NECF website is running
+2025-11-21 20:10:53.766 INFO  com.stepDefinitions.Hooks:75 - Flushing ExtentReports...
+2025-11-21 20:10:57.813 ERROR com.utility.EmailReportSender:61 - ❌ PDF generation failed: Can't load the XML resource (using TRaX transformer). org.xml.sax.SAXParseException; lineNumber: 29; columnNumber: 36; The entity name must immediately follow the '&' in the entity reference.
+com.openhtmltopdf.util.XRRuntimeException: Can't load the XML resource (using TRaX transformer). org.xml.sax.SAXParseException; lineNumber: 29; columnNumber: 36; The entity name must immediately follow the '&' in the entity reference.
+	at com.openhtmltopdf.resource.XMLResource$XMLResourceBuilder.createXMLResource(XMLResource.java:254) ~[openhtmltopdf-core-1.0.10.jar:?]
+	at com.openhtmltopdf.resource.XMLResource$XMLResourceBuilder.access$100(XMLResource.java:145) ~[openhtmltopdf-core-1.0.10.jar:?]
+	at com.openhtmltopdf.resource.XMLResource.load(XMLResource.java:75) ~[openhtmltopdf-core-1.0.10.jar:?]
+	at com.openhtmltopdf.swing.NaiveUserAgent.getXMLResource(NaiveUserAgent.java:410) ~[openhtmltopdf-core-1.0.10.jar:?]
+	at com.openhtmltopdf.pdfboxout.PdfBoxRenderer.loadDocument(PdfBoxRenderer.java:298) ~[openhtmltopdf-pdfbox-1.0.10.jar:?]
+	at com.openhtmltopdf.pdfboxout.PdfBoxRenderer.setDocumentP(PdfBoxRenderer.java:311) ~[openhtmltopdf-pdfbox-1.0.10.jar:?]
+	at com.openhtmltopdf.pdfboxout.PdfBoxRenderer.<init>(PdfBoxRenderer.java:266) ~[openhtmltopdf-pdfbox-1.0.10.jar:?]
+	at com.openhtmltopdf.pdfboxout.PdfRendererBuilder.buildPdfRenderer(PdfRendererBuilder.java:69) ~[openhtmltopdf-pdfbox-1.0.10.jar:?]
+	at com.openhtmltopdf.pdfboxout.PdfRendererBuilder.run(PdfRendererBuilder.java:44) ~[openhtmltopdf-pdfbox-1.0.10.jar:?]
+	at com.utility.EmailReportSender.generatePdfFromHtml(EmailReportSender.java:58) ~[test-classes/:?]
+	at com.stepDefinitions.Hooks.flushReportsAndSendEmail(Hooks.java:82) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-7.28.2.jar:7.28.2]
+	at io.cucumber.java.Invoker.invokeStatic(Invoker.java:80) ~[cucumber-java-7.28.2.jar:7.28.2]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:45) ~[cucumber-java-7.28.2.jar:7.28.2]
+	at io.cucumber.java.JavaStaticHookDefinition.execute(JavaStaticHookDefinition.java:49) ~[cucumber-java-7.28.2.jar:7.28.2]
+	at io.cucumber.core.runner.Runner.executeHook(Runner.java:113) ~[cucumber-core-7.28.2.jar:7.28.2]
+	at io.cucumber.core.runner.Runner.lambda$executeHooks$3(Runner.java:100) ~[cucumber-core-7.28.2.jar:7.28.2]
+	at io.cucumber.core.runner.ThrowableCollector.execute(ThrowableCollector.java:21) ~[cucumber-core-7.28.2.jar:7.28.2]
+	at io.cucumber.core.runner.Runner.executeHooks(Runner.java:100) ~[cucumber-core-7.28.2.jar:7.28.2]
+	at io.cucumber.core.runner.Runner.runAfterAllHooks(Runner.java:94) ~[cucumber-core-7.28.2.jar:7.28.2]
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) ~[cucumber-core-7.28.2.jar:7.28.2]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runAfterAllHooks(CucumberExecutionContext.java:98) ~[cucumber-core-7.28.2.jar:7.28.2]
+	at io.cucumber.testng.TestNGCucumberRunner.finish(TestNGCucumberRunner.java:146) ~[cucumber-testng-7.28.2.jar:7.28.2]
+	at io.cucumber.testng.AbstractTestNGCucumberTests.tearDownClass(AbstractTestNGCucumberTests.java:57) ~[cucumber-testng-7.28.2.jar:7.28.2]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassConfigurations(TestMethodWorker.java:238) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:223) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:137) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1541) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+Caused by: javax.xml.transform.TransformerException: org.xml.sax.SAXParseException; lineNumber: 29; columnNumber: 36; The entity name must immediately follow the '&' in the entity reference.
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:787) ~[?:?]
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:371) ~[?:?]
+	at com.openhtmltopdf.resource.XMLResource$XMLResourceBuilder.createXMLResource(XMLResource.java:251) ~[openhtmltopdf-core-1.0.10.jar:?]
+	... 54 more
+Caused by: org.xml.sax.SAXParseException: The entity name must immediately follow the '&' in the entity reference.
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1243) ~[?:?]
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:635) ~[?:?]
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(TransformerImpl.java:688) ~[?:?]
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:775) ~[?:?]
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:371) ~[?:?]
+	at com.openhtmltopdf.resource.XMLResource$XMLResourceBuilder.createXMLResource(XMLResource.java:251) ~[openhtmltopdf-core-1.0.10.jar:?]
+	... 54 more
+2025-11-21 20:10:57.823 INFO  com.stepDefinitions.Hooks:87 - Sending email report...
+2025-11-21 20:10:57.823 INFO  com.utility.EmailReportSender:67 - ========== EMAIL DEBUG START ==========
+2025-11-21 20:13:12.003 INFO  com.utility.EmailReportSender:115 - ✔ Screenshot attached: C:\Users\jubin\NECF Project\NECF\target\ExtentReports\screenshots\Verify_NECF_website_is_running.png
+2025-11-21 20:13:12.009 INFO  com.utility.EmailReportSender:125 - ✔ HTML report attached
+2025-11-21 20:13:25.591 INFO  com.utility.EmailReportSender:133 - ✔ PDF report attached
+2025-11-21 20:13:47.515 INFO  com.utility.EmailReportSender:139 - 📧 ✔ Email sent successfully!
+2025-11-21 20:13:47.515 INFO  com.utility.EmailReportSender:145 - ========== EMAIL DEBUG END ==========
+2025-11-21 20:16:15.865 INFO  com.webdrivermanager.DriverManager:33 - Launching Chrome in HEADLESS mode
+2025-11-21 20:16:15.868 INFO  com.stepDefinitions.Hooks:39 - Driver initialized for scenario: Verify NECF website is running
+2025-11-21 20:16:15.994 INFO  com.pages.HomePage:50 - Checking site availability for URL: https://mediaxbook.com/
+2025-11-21 20:16:19.378 INFO  com.pages.HomePage:60 - Server responded with status code: 200
+2025-11-21 20:16:19.379 INFO  com.pages.HomePage:66 - Website is UP
+2025-11-21 20:16:36.312 INFO  com.pages.HomePage:88 - Navigated to URL: https://mediaxbook.com/
+2025-11-21 20:16:36.335 INFO  com.pages.HomePage:105 - Page Load Time: 16894 ms
+2025-11-21 20:16:36.335 INFO  com.pages.HomePage:116 - Verifying URL...
+2025-11-21 20:16:36.353 INFO  com.pages.HomePage:120 - Current URL: https://mediaxbook.com/
+2025-11-21 20:16:36.368 INFO  com.pages.HomePage:133 - Page Title: NECF Global – Marketplace
+2025-11-21 20:16:36.759 INFO  com.webdrivermanager.DriverManager:76 - Driver quit successfully
+2025-11-21 20:16:36.760 INFO  com.stepDefinitions.Hooks:68 - Driver quit after scenario: Verify NECF website is running
+2025-11-21 20:16:36.784 INFO  com.stepDefinitions.Hooks:75 - Flushing ExtentReports...
+2025-11-21 20:16:40.506 ERROR com.utility.EmailReportSender:61 - ❌ PDF generation failed: Can't load the XML resource (using TRaX transformer). org.xml.sax.SAXParseException; lineNumber: 29; columnNumber: 36; The entity name must immediately follow the '&' in the entity reference.
+com.openhtmltopdf.util.XRRuntimeException: Can't load the XML resource (using TRaX transformer). org.xml.sax.SAXParseException; lineNumber: 29; columnNumber: 36; The entity name must immediately follow the '&' in the entity reference.
+	at com.openhtmltopdf.resource.XMLResource$XMLResourceBuilder.createXMLResource(XMLResource.java:254) ~[openhtmltopdf-core-1.0.10.jar:?]
+	at com.openhtmltopdf.resource.XMLResource$XMLResourceBuilder.access$100(XMLResource.java:145) ~[openhtmltopdf-core-1.0.10.jar:?]
+	at com.openhtmltopdf.resource.XMLResource.load(XMLResource.java:75) ~[openhtmltopdf-core-1.0.10.jar:?]
+	at com.openhtmltopdf.swing.NaiveUserAgent.getXMLResource(NaiveUserAgent.java:410) ~[openhtmltopdf-core-1.0.10.jar:?]
+	at com.openhtmltopdf.pdfboxout.PdfBoxRenderer.loadDocument(PdfBoxRenderer.java:298) ~[openhtmltopdf-pdfbox-1.0.10.jar:?]
+	at com.openhtmltopdf.pdfboxout.PdfBoxRenderer.setDocumentP(PdfBoxRenderer.java:311) ~[openhtmltopdf-pdfbox-1.0.10.jar:?]
+	at com.openhtmltopdf.pdfboxout.PdfBoxRenderer.<init>(PdfBoxRenderer.java:266) ~[openhtmltopdf-pdfbox-1.0.10.jar:?]
+	at com.openhtmltopdf.pdfboxout.PdfRendererBuilder.buildPdfRenderer(PdfRendererBuilder.java:69) ~[openhtmltopdf-pdfbox-1.0.10.jar:?]
+	at com.openhtmltopdf.pdfboxout.PdfRendererBuilder.run(PdfRendererBuilder.java:44) ~[openhtmltopdf-pdfbox-1.0.10.jar:?]
+	at com.utility.EmailReportSender.generatePdfFromHtml(EmailReportSender.java:58) ~[test-classes/:?]
+	at com.stepDefinitions.Hooks.flushReportsAndSendEmail(Hooks.java:82) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-7.28.2.jar:7.28.2]
+	at io.cucumber.java.Invoker.invokeStatic(Invoker.java:80) ~[cucumber-java-7.28.2.jar:7.28.2]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:45) ~[cucumber-java-7.28.2.jar:7.28.2]
+	at io.cucumber.java.JavaStaticHookDefinition.execute(JavaStaticHookDefinition.java:49) ~[cucumber-java-7.28.2.jar:7.28.2]
+	at io.cucumber.core.runner.Runner.executeHook(Runner.java:113) ~[cucumber-core-7.28.2.jar:7.28.2]
+	at io.cucumber.core.runner.Runner.lambda$executeHooks$3(Runner.java:100) ~[cucumber-core-7.28.2.jar:7.28.2]
+	at io.cucumber.core.runner.ThrowableCollector.execute(ThrowableCollector.java:21) ~[cucumber-core-7.28.2.jar:7.28.2]
+	at io.cucumber.core.runner.Runner.executeHooks(Runner.java:100) ~[cucumber-core-7.28.2.jar:7.28.2]
+	at io.cucumber.core.runner.Runner.runAfterAllHooks(Runner.java:94) ~[cucumber-core-7.28.2.jar:7.28.2]
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) ~[cucumber-core-7.28.2.jar:7.28.2]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runAfterAllHooks(CucumberExecutionContext.java:98) ~[cucumber-core-7.28.2.jar:7.28.2]
+	at io.cucumber.testng.TestNGCucumberRunner.finish(TestNGCucumberRunner.java:146) ~[cucumber-testng-7.28.2.jar:7.28.2]
+	at io.cucumber.testng.AbstractTestNGCucumberTests.tearDownClass(AbstractTestNGCucumberTests.java:57) ~[cucumber-testng-7.28.2.jar:7.28.2]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassConfigurations(TestMethodWorker.java:238) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:223) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:137) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1541) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+Caused by: javax.xml.transform.TransformerException: org.xml.sax.SAXParseException; lineNumber: 29; columnNumber: 36; The entity name must immediately follow the '&' in the entity reference.
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:787) ~[?:?]
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:371) ~[?:?]
+	at com.openhtmltopdf.resource.XMLResource$XMLResourceBuilder.createXMLResource(XMLResource.java:251) ~[openhtmltopdf-core-1.0.10.jar:?]
+	... 54 more
+Caused by: org.xml.sax.SAXParseException: The entity name must immediately follow the '&' in the entity reference.
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1243) ~[?:?]
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:635) ~[?:?]
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(TransformerImpl.java:688) ~[?:?]
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:775) ~[?:?]
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:371) ~[?:?]
+	at com.openhtmltopdf.resource.XMLResource$XMLResourceBuilder.createXMLResource(XMLResource.java:251) ~[openhtmltopdf-core-1.0.10.jar:?]
+	... 54 more
+2025-11-21 20:16:40.513 INFO  com.stepDefinitions.Hooks:87 - Sending email report...
+2025-11-21 20:16:40.513 INFO  com.utility.EmailReportSender:67 - ========== EMAIL DEBUG START ==========
+2025-11-21 20:16:45.224 INFO  com.utility.EmailReportSender:115 - ✔ Screenshot attached: C:\Users\jubin\NECF Project\NECF\target\ExtentReports\screenshots\Verify_NECF_website_is_running.png
+2025-11-21 20:16:45.224 INFO  com.utility.EmailReportSender:125 - ✔ HTML report attached
+2025-11-21 20:18:04.265 INFO  com.utility.EmailReportSender:133 - ✔ PDF report attached
+2025-11-21 20:18:43.361 INFO  com.utility.EmailReportSender:139 - 📧 ✔ Email sent successfully!
+2025-11-21 20:18:51.890 INFO  com.utility.EmailReportSender:145 - ========== EMAIL DEBUG END ==========
+2025-11-21 20:21:12.050 INFO  com.webdrivermanager.DriverManager:33 - Launching Chrome in HEADLESS mode
+2025-11-21 20:21:12.054 INFO  com.stepDefinitions.Hooks:39 - Driver initialized for scenario: Verify NECF website is running
+2025-11-21 20:21:12.183 INFO  com.pages.HomePage:50 - Checking site availability for URL: https://mediaxbook.com/
+2025-11-21 20:21:14.499 INFO  com.pages.HomePage:60 - Server responded with status code: 200
+2025-11-21 20:21:14.500 INFO  com.pages.HomePage:66 - Website is UP
+2025-11-21 20:21:29.512 INFO  com.pages.HomePage:88 - Navigated to URL: https://mediaxbook.com/
+2025-11-21 20:21:29.540 INFO  com.pages.HomePage:105 - Page Load Time: 14974 ms
+2025-11-21 20:21:29.541 INFO  com.pages.HomePage:116 - Verifying URL...
+2025-11-21 20:21:29.566 INFO  com.pages.HomePage:120 - Current URL: https://mediaxbook.com/
+2025-11-21 20:21:29.594 INFO  com.pages.HomePage:133 - Page Title: NECF Global – Marketplace
+2025-11-21 20:21:29.971 INFO  com.webdrivermanager.DriverManager:76 - Driver quit successfully
+2025-11-21 20:21:29.972 INFO  com.stepDefinitions.Hooks:68 - Driver quit after scenario: Verify NECF website is running
+2025-11-21 20:21:29.993 INFO  com.stepDefinitions.Hooks:75 - Flushing ExtentReports...
+2025-11-21 20:22:58.880 INFO  com.webdrivermanager.DriverManager:33 - Launching Chrome in HEADLESS mode
+2025-11-21 20:22:58.882 INFO  com.stepDefinitions.Hooks:39 - Driver initialized for scenario: Verify NECF website is running
+2025-11-21 20:22:59.003 INFO  com.pages.HomePage:50 - Checking site availability for URL: https://mediaxbook.com/
+2025-11-21 20:23:03.978 INFO  com.pages.HomePage:60 - Server responded with status code: 200
+2025-11-21 20:23:03.979 INFO  com.pages.HomePage:66 - Website is UP
+2025-11-21 20:23:21.852 INFO  com.pages.HomePage:88 - Navigated to URL: https://mediaxbook.com/
+2025-11-21 20:23:21.887 INFO  com.pages.HomePage:105 - Page Load Time: 17842 ms
+2025-11-21 20:23:21.888 INFO  com.pages.HomePage:116 - Verifying URL...
+2025-11-21 20:23:21.915 INFO  com.pages.HomePage:120 - Current URL: https://mediaxbook.com/
+2025-11-21 20:23:21.949 INFO  com.pages.HomePage:133 - Page Title: NECF Global – Marketplace
+2025-11-21 20:23:22.548 INFO  com.webdrivermanager.DriverManager:76 - Driver quit successfully
+2025-11-21 20:23:22.549 INFO  com.stepDefinitions.Hooks:68 - Driver quit after scenario: Verify NECF website is running
+2025-11-21 20:23:22.571 INFO  com.stepDefinitions.Hooks:75 - Flushing ExtentReports...
+2025-11-21 20:25:02.993 ERROR com.utility.EmailReportSender:61 - ❌ PDF generation failed: Can't load the XML resource (using TRaX transformer). org.xml.sax.SAXParseException; lineNumber: 29; columnNumber: 36; The entity name must immediately follow the '&' in the entity reference.
+com.openhtmltopdf.util.XRRuntimeException: Can't load the XML resource (using TRaX transformer). org.xml.sax.SAXParseException; lineNumber: 29; columnNumber: 36; The entity name must immediately follow the '&' in the entity reference.
+	at com.openhtmltopdf.resource.XMLResource$XMLResourceBuilder.createXMLResource(XMLResource.java:254) ~[openhtmltopdf-core-1.0.10.jar:?]
+	at com.openhtmltopdf.resource.XMLResource$XMLResourceBuilder.access$100(XMLResource.java:145) ~[openhtmltopdf-core-1.0.10.jar:?]
+	at com.openhtmltopdf.resource.XMLResource.load(XMLResource.java:75) ~[openhtmltopdf-core-1.0.10.jar:?]
+	at com.openhtmltopdf.swing.NaiveUserAgent.getXMLResource(NaiveUserAgent.java:410) ~[openhtmltopdf-core-1.0.10.jar:?]
+	at com.openhtmltopdf.pdfboxout.PdfBoxRenderer.loadDocument(PdfBoxRenderer.java:298) ~[openhtmltopdf-pdfbox-1.0.10.jar:?]
+	at com.openhtmltopdf.pdfboxout.PdfBoxRenderer.setDocumentP(PdfBoxRenderer.java:311) ~[openhtmltopdf-pdfbox-1.0.10.jar:?]
+	at com.openhtmltopdf.pdfboxout.PdfBoxRenderer.<init>(PdfBoxRenderer.java:266) ~[openhtmltopdf-pdfbox-1.0.10.jar:?]
+	at com.openhtmltopdf.pdfboxout.PdfRendererBuilder.buildPdfRenderer(PdfRendererBuilder.java:69) ~[openhtmltopdf-pdfbox-1.0.10.jar:?]
+	at com.openhtmltopdf.pdfboxout.PdfRendererBuilder.run(PdfRendererBuilder.java:44) ~[openhtmltopdf-pdfbox-1.0.10.jar:?]
+	at com.utility.EmailReportSender.generatePdfFromHtml(EmailReportSender.java:58) ~[test-classes/:?]
+	at com.stepDefinitions.Hooks.flushReportsAndSendEmail(Hooks.java:82) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-7.28.2.jar:7.28.2]
+	at io.cucumber.java.Invoker.invokeStatic(Invoker.java:80) ~[cucumber-java-7.28.2.jar:7.28.2]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:45) ~[cucumber-java-7.28.2.jar:7.28.2]
+	at io.cucumber.java.JavaStaticHookDefinition.execute(JavaStaticHookDefinition.java:49) ~[cucumber-java-7.28.2.jar:7.28.2]
+	at io.cucumber.core.runner.Runner.executeHook(Runner.java:113) ~[cucumber-core-7.28.2.jar:7.28.2]
+	at io.cucumber.core.runner.Runner.lambda$executeHooks$3(Runner.java:100) ~[cucumber-core-7.28.2.jar:7.28.2]
+	at io.cucumber.core.runner.ThrowableCollector.execute(ThrowableCollector.java:21) ~[cucumber-core-7.28.2.jar:7.28.2]
+	at io.cucumber.core.runner.Runner.executeHooks(Runner.java:100) ~[cucumber-core-7.28.2.jar:7.28.2]
+	at io.cucumber.core.runner.Runner.runAfterAllHooks(Runner.java:94) ~[cucumber-core-7.28.2.jar:7.28.2]
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) ~[cucumber-core-7.28.2.jar:7.28.2]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runAfterAllHooks(CucumberExecutionContext.java:98) ~[cucumber-core-7.28.2.jar:7.28.2]
+	at io.cucumber.testng.TestNGCucumberRunner.finish(TestNGCucumberRunner.java:146) ~[cucumber-testng-7.28.2.jar:7.28.2]
+	at io.cucumber.testng.AbstractTestNGCucumberTests.tearDownClass(AbstractTestNGCucumberTests.java:57) ~[cucumber-testng-7.28.2.jar:7.28.2]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassConfigurations(TestMethodWorker.java:238) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:223) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:137) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1541) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+Caused by: javax.xml.transform.TransformerException: org.xml.sax.SAXParseException; lineNumber: 29; columnNumber: 36; The entity name must immediately follow the '&' in the entity reference.
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:787) ~[?:?]
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:371) ~[?:?]
+	at com.openhtmltopdf.resource.XMLResource$XMLResourceBuilder.createXMLResource(XMLResource.java:251) ~[openhtmltopdf-core-1.0.10.jar:?]
+	... 54 more
+Caused by: org.xml.sax.SAXParseException: The entity name must immediately follow the '&' in the entity reference.
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1243) ~[?:?]
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:635) ~[?:?]
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(TransformerImpl.java:688) ~[?:?]
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:775) ~[?:?]
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:371) ~[?:?]
+	at com.openhtmltopdf.resource.XMLResource$XMLResourceBuilder.createXMLResource(XMLResource.java:251) ~[openhtmltopdf-core-1.0.10.jar:?]
+	... 54 more
+2025-11-21 20:25:03.029 INFO  com.stepDefinitions.Hooks:87 - Sending email report...
+2025-11-21 20:25:03.030 INFO  com.utility.EmailReportSender:67 - ========== EMAIL DEBUG START ==========
+2025-11-21 20:25:07.080 INFO  com.utility.EmailReportSender:115 - ✔ Screenshot attached: C:\Users\jubin\NECF Project\NECF\target\ExtentReports\screenshots\Verify_NECF_website_is_running.png
+2025-11-21 20:25:07.083 INFO  com.utility.EmailReportSender:125 - ✔ HTML report attached
+2025-11-21 20:25:12.818 INFO  com.utility.EmailReportSender:133 - ✔ PDF report attached
+2025-11-21 20:25:23.372 INFO  com.utility.EmailReportSender:139 - 📧 ✔ Email sent successfully!
+2025-11-21 20:25:23.372 INFO  com.utility.EmailReportSender:145 - ========== EMAIL DEBUG END ==========
