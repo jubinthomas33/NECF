@@ -6,7 +6,6 @@ import java.util.Properties;
 
 import org.apache.logging.log4j.Logger;
 
-//import io.github.cdimascio.dotenv.Dotenv;
 import jakarta.activation.DataHandler;
 import jakarta.activation.FileDataSource;
 import jakarta.mail.Authenticator;
@@ -22,135 +21,115 @@ import jakarta.mail.internet.MimeMultipart;
 
 public class EmailReportSender {
 
-	private static final Logger log = LoggerHelper.getLogger(EmailReportSender.class);
+    private static final Logger log = LoggerHelper.getLogger(EmailReportSender.class);
 
-	// =====================================================
-	// MULTIPLE RECIPIENTS FROM CONFIG FILE
-	// =====================================================
-	// private static final Dotenv dotenv =
-	// Dotenv.configure().filename("Credentials.env").load();
-	private static final String RECIPIENTS = String.join(",", System.getenv("RECIPIENT1"), System.getenv("RECIPIENT2"));
+    // Load recipients safely from environment variables
+    private static String getRecipients() {
+        StringBuilder recipients = new StringBuilder();
+        String[] keys = { "RECIPIENT1", "RECIPIENT2", "RECIPIENT3", "RECIPIENT4", "RECIPIENT5" };
 
-	private static final String FROM_EMAIL = System.getenv("EMAIL");
-	private static final String APP_PASSWORD = System.getenv("PASSWORD");
+        for (String key : keys) {
+            String email = System.getenv(key);
+            if (email != null && !email.trim().isEmpty()) {
+                if (recipients.length() > 0) recipients.append(",");
+                recipients.append(email.trim());
+            }
+        }
 
-	public static void sendFailureReportWithScreenshots(List<String> failedScenarios, List<String> failedScreenshots) {
+        return recipients.toString();
+    }
 
-		log.info("Preparing to send error report email...");
+    private static final String RECIPIENTS = getRecipients();
+    private static final String FROM_EMAIL = System.getenv("EMAIL");
+    private static final String APP_PASSWORD = System.getenv("PASSWORD");
 
-		try {
+    public static void sendFailureReportWithScreenshots(List<String> failedScenarios, List<String> failedScreenshots) {
 
-			// =============================
-			// 1. EMAIL SERVER PROPERTIES
-			// =============================
-			Properties props = new Properties();
-			props.put("mail.smtp.host", "smtp.gmail.com");
-			props.put("mail.smtp.port", "587");
-			props.put("mail.smtp.auth", "true");
-			props.put("mail.smtp.starttls.enable", "true");
+        if (RECIPIENTS.isEmpty()) {
+            log.warn("⚠️ No recipients provided. Email sending skipped.");
+            return; // nothing to do if no recipients
+        }
 
-			Session session = Session.getInstance(props, new Authenticator() {
-				@Override
-				protected PasswordAuthentication getPasswordAuthentication() {
-					return new PasswordAuthentication(FROM_EMAIL, APP_PASSWORD);
-				}
-			});
+        log.info("Preparing to send error report email...");
 
-			// =============================
-			// 2. CREATE EMAIL MESSAGE
-			// =============================
-			MimeMessage message = new MimeMessage(session);
-			message.setFrom(new InternetAddress(FROM_EMAIL));
+        try {
+            Properties props = new Properties();
+            props.put("mail.smtp.host", "smtp.gmail.com");
+            props.put("mail.smtp.port", "587");
+            props.put("mail.smtp.auth", "true");
+            props.put("mail.smtp.starttls.enable", "true");
 
-			// Set multiple recipients
-			message.setRecipients(Message.RecipientType.TO, InternetAddress.parse(RECIPIENTS));
+            Session session = Session.getInstance(props, new Authenticator() {
+                @Override
+                protected PasswordAuthentication getPasswordAuthentication() {
+                    return new PasswordAuthentication(FROM_EMAIL, APP_PASSWORD);
+                }
+            });
 
-			// Subject
-			message.setSubject(" NECF SITE DOWN — NEED IMMEDIATE ATTENTION!!!");
+            MimeMessage message = new MimeMessage(session);
+            message.setFrom(new InternetAddress(FROM_EMAIL));
+            message.setRecipients(Message.RecipientType.TO, InternetAddress.parse(RECIPIENTS));
+            message.setSubject("NECF SITE DOWN — NEED IMMEDIATE ATTENTION!!!");
 
-			// =============================
-			// 3. EMAIL BODY
-			// =============================
-			MimeBodyPart messageBodyPart = new MimeBodyPart();
+            MimeBodyPart messageBodyPart = new MimeBodyPart();
+            StringBuilder htmlContent = new StringBuilder();
+            htmlContent.append("<h2 style='color:red;'> NECF Website Health Check Failed</h2>");
+            htmlContent.append("<p>The automation detected that the NECF site is <b>not reachable</b>.</p>");
+            htmlContent.append("<h3>Failed Scenarios:</h3><ul>");
+            for (String scenario : failedScenarios) {
+                htmlContent.append("<li>").append(scenario).append("</li>");
+            }
+            htmlContent.append("</ul>");
+            htmlContent.append("<p>Please check the issue immediately.</p>");
+            htmlContent.append("<p>Regards,<br>Automation Monitoring System</p>");
+            messageBodyPart.setContent(htmlContent.toString(), "text/html");
 
-			StringBuilder htmlContent = new StringBuilder();
+            Multipart multipart = new MimeMultipart();
+            multipart.addBodyPart(messageBodyPart);
 
-			htmlContent.append("<h2 style='color:red;'> NECF Website Health Check Failed</h2>");
-			htmlContent.append("<p>The automation detected that the NECF site is <b>not reachable</b>.</p>");
+            // Attach screenshots
+            for (String screenshotPath : failedScreenshots) {
+                File file = new File(screenshotPath);
+                if (file.exists()) {
+                    MimeBodyPart attachPart = new MimeBodyPart();
+                    attachPart.setDataHandler(new DataHandler(new FileDataSource(file)));
+                    attachPart.setFileName(file.getName());
+                    multipart.addBodyPart(attachPart);
+                    log.info("Screenshot attached: " + file.getAbsolutePath());
+                } else {
+                    log.warn("Screenshot NOT FOUND, skipped: " + screenshotPath);
+                }
+            }
 
-			htmlContent.append("<h3> Failed Scenarios:</h3><ul>");
-			for (String scenario : failedScenarios) {
-				htmlContent.append("<li>").append(scenario).append("</li>");
-			}
-			htmlContent.append("</ul>");
+            // Attach HTML report
+            File htmlReport = new File("target/ExtentReports/SparkReport.html");
+            if (htmlReport.exists()) {
+                MimeBodyPart htmlPart = new MimeBodyPart();
+                htmlPart.attachFile(htmlReport);
+                multipart.addBodyPart(htmlPart);
+                log.info("HTML report attached.");
+            } else {
+                log.warn("HTML report NOT FOUND.");
+            }
 
-			htmlContent.append("<p>Please check the issue immediately.</p>");
-			htmlContent.append("<p>Regards,<br>Automation Monitoring System</p>");
+            // Attach PDF report
+            File pdfReport = new File("target/ExtentReports/ExtentReport.pdf");
+            if (pdfReport.exists()) {
+                MimeBodyPart pdfPart = new MimeBodyPart();
+                pdfPart.attachFile(pdfReport);
+                multipart.addBodyPart(pdfPart);
+                log.info("PDF report attached.");
+            } else {
+                log.warn("PDF report NOT FOUND.");
+            }
 
-			// Set HTML
-			messageBodyPart.setContent(htmlContent.toString(), "text/html");
+            message.setContent(multipart);
+            Transport.send(message);
 
-			Multipart multipart = new MimeMultipart();
-			multipart.addBodyPart(messageBodyPart);
+            log.info("📧 Email sent successfully to: " + RECIPIENTS);
 
-			// =============================
-			// 4. ATTACH SCREENSHOTS
-			// =============================
-			for (String screenshotPath : failedScreenshots) {
-				File file = new File(screenshotPath);
-
-				if (file.exists()) {
-					MimeBodyPart attachPart = new MimeBodyPart();
-					FileDataSource source = new FileDataSource(file);
-					attachPart.setDataHandler(new DataHandler(source));
-					attachPart.setFileName(file.getName());
-					multipart.addBodyPart(attachPart);
-					log.info("Screenshot attached: " + file.getAbsolutePath());
-				} else {
-					log.warn("Screenshot NOT FOUND, skipped: " + screenshotPath);
-				}
-			}
-
-			// =============================
-			// 5. ATTACH HTML REPORT
-			// =============================
-			File htmlReport = new File("target/ExtentReports/SparkReport.html");
-			if (htmlReport.exists()) {
-				MimeBodyPart htmlPart = new MimeBodyPart();
-				htmlPart.attachFile(htmlReport);
-				multipart.addBodyPart(htmlPart);
-				log.info("HTML report attached.");
-			} else {
-				log.warn("HTML report NOT FOUND.");
-			}
-
-			// =============================
-			// 6. ATTACH PDF REPORT
-			// =============================
-			File pdfReport = new File("target/ExtentReports/ExtentReport.pdf");
-			if (pdfReport.exists()) {
-				MimeBodyPart pdfPart = new MimeBodyPart();
-				pdfPart.attachFile(pdfReport);
-				multipart.addBodyPart(pdfPart);
-				log.info("PDF report attached.");
-			} else {
-				log.warn("PDF report NOT FOUND.");
-			}
-
-			// =============================
-			// 7. FINAL EMAIL ASSEMBLE
-			// =============================
-			message.setContent(multipart);
-
-			// =============================
-			// 8. SEND EMAIL
-			// =============================
-			Transport.send(message);
-
-			log.info("📧 Email sent successfully to: " + RECIPIENTS);
-
-		} catch (Exception e) {
-			log.error("❌ Error sending email: " + e.getMessage());
-		}
-	}
+        } catch (Exception e) {
+            log.error("❌ Error sending email: " + e.getMessage());
+        }
+    }
 }
