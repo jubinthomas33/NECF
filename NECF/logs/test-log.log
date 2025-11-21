@@ -1269,3 +1269,33 @@ Session ID: a3f26530e0822362e7c3d25fd14b9b1f
 2025-11-21 12:27:23.928 INFO  com.stepDefinitions.Hooks:101 - Driver quit after scenario: Verify NECF website is running
 2025-11-21 12:27:23.947 INFO  com.stepDefinitions.Hooks:130 - ShutdownHook registered successfully.
 2025-11-21 12:27:25.756 INFO  com.stepDefinitions.Hooks:111 - ShutdownHook triggered â†’ Waiting for ExtentReports to finish writing...
+2025-11-21 14:07:09.250 INFO  com.webdrivermanager.DriverManager:30 - Setting Chrome as a browser
+2025-11-21 14:07:09.250 INFO  com.stepDefinitions.Hooks:48 - Driver initialized for scenario: Verify NECF website is running
+2025-11-21 14:07:09.488 INFO  com.pages.HomePage:50 - Checking site availability for URL: https://mediaxbook.com/
+2025-11-21 14:07:11.364 INFO  com.pages.HomePage:60 - Server responded with status code: 200
+2025-11-21 14:07:11.364 INFO  com.pages.HomePage:66 - Website is UP
+2025-11-21 14:07:20.957 INFO  com.pages.HomePage:88 - Navigated to URL: https://mediaxbook.com/
+2025-11-21 14:07:20.986 INFO  com.pages.HomePage:105 - Page Load Time: 9554 ms
+2025-11-21 14:07:20.987 INFO  com.pages.HomePage:116 - Verifying URL...
+2025-11-21 14:07:21.007 INFO  com.pages.HomePage:120 - Current URL: https://mediaxbook.com/
+2025-11-21 14:07:21.029 INFO  com.pages.HomePage:133 - Page Title: NECF Global – Marketplace
+2025-11-21 14:07:21.030 INFO  com.pages.HomePage:154 - Verifying the page elements...
+2025-11-21 14:07:22.190 INFO  com.webdrivermanager.DriverManager:56 - Driver quit successfully
+2025-11-21 14:07:22.191 INFO  com.stepDefinitions.Hooks:101 - Driver quit after scenario: Verify NECF website is running
+2025-11-21 14:07:22.210 INFO  com.stepDefinitions.Hooks:130 - ShutdownHook registered successfully.
+2025-11-21 14:07:24.373 INFO  com.stepDefinitions.Hooks:111 - ShutdownHook triggered ? Waiting for ExtentReports to finish writing...
+2025-11-21 14:16:41.952 INFO  com.webdrivermanager.DriverManager:34 - Launching Chrome in HEADLESS mode
+2025-11-21 14:16:41.954 INFO  com.stepDefinitions.Hooks:48 - Driver initialized for scenario: Verify NECF website is running
+2025-11-21 14:16:42.087 INFO  com.pages.HomePage:50 - Checking site availability for URL: https://mediaxbook.com/
+2025-11-21 14:16:44.372 INFO  com.pages.HomePage:60 - Server responded with status code: 200
+2025-11-21 14:16:44.372 INFO  com.pages.HomePage:66 - Website is UP
+2025-11-21 14:16:56.305 INFO  com.pages.HomePage:88 - Navigated to URL: https://mediaxbook.com/
+2025-11-21 14:16:56.335 INFO  com.pages.HomePage:105 - Page Load Time: 11895 ms
+2025-11-21 14:16:56.336 INFO  com.pages.HomePage:116 - Verifying URL...
+2025-11-21 14:16:56.359 INFO  com.pages.HomePage:120 - Current URL: https://mediaxbook.com/
+2025-11-21 14:16:56.379 INFO  com.pages.HomePage:133 - Page Title: NECF Global – Marketplace
+2025-11-21 14:16:56.381 INFO  com.pages.HomePage:154 - Verifying the page elements...
+2025-11-21 14:16:57.203 INFO  com.webdrivermanager.DriverManager:77 - Driver quit successfully
+2025-11-21 14:16:57.204 INFO  com.stepDefinitions.Hooks:101 - Driver quit after scenario: Verify NECF website is running
+2025-11-21 14:16:57.217 INFO  com.stepDefinitions.Hooks:130 - ShutdownHook registered successfully.
+2025-11-21 14:16:59.419 INFO  com.stepDefinitions.Hooks:111 - ShutdownHook triggered ? Waiting for ExtentReports to finish writing...
