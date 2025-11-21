@@ -79,6 +79,7 @@ public class Elements {
 		getVisible(element).clear();
 	}
 
+
 	public void clearAndType(WebElement element, String text) {
 
 		getVisible(element).click();

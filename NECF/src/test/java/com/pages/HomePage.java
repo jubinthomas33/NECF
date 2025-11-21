@@ -9,6 +9,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
+
 
 import com.utility.ConfigReader;
 import com.utility.Elements;
@@ -16,7 +18,7 @@ import com.utility.LoggerHelper;
 import com.utility.ExtentLogger;
 import com.webdrivermanager.DriverManager;
 
-import junit.framework.Assert;
+
 
 public class HomePage {
 	WebDriver driver;
@@ -32,10 +34,10 @@ public class HomePage {
 
 	@FindBy(xpath = "(//a[@href='https://mediaxbook.com'])[1]")
 	WebElement titleLink;
-
+	@FindBy(xpath = "//div[.='size']")
+	WebElement size;
 	@FindBy(xpath = "//h1[contains(text(),'About NECF')]")
 	WebElement AboutNECF;
-
 	@FindBy(xpath = "//p[contains(@class,'elementor-heading') and contains(text(),'NECF Corporation. All Rights Reserved')]")
 	WebElement endLine;
 
@@ -44,6 +46,7 @@ public class HomePage {
 	// -----------------------------------------
 	public boolean isSiteUp(String urlString) {
 		try {
+
 			log.info("Checking site availability for URL: " + urlString);
 			ExtentLogger.extentInfo("Checking site availability for URL: " + urlString);
 
@@ -107,84 +110,84 @@ public class HomePage {
 			ExtentLogger.extentError("Unable to calculate performance timing");
 		}
 	}
+
 	public void verifyingTitle() {
-	    try {
-	        log.info("Verifying URL...");
-	        ExtentLogger.extentInfo("Verifying URL...");
+		try {
+			log.info("Verifying URL...");
+			ExtentLogger.extentInfo("Verifying URL...");
 
-	        String url = util.getCurrentUrl();
-	        log.info("Current URL: " + url);
-	        ExtentLogger.extentInfo("Current URL: " + url);
+			String url = util.getCurrentUrl();
+			log.info("Current URL: " + url);
+			ExtentLogger.extentInfo("Current URL: " + url);
 
-	        if (!ConfigReader.getProperty("url").equals(url)) {
-	            ExtentLogger.extentFail("URL verification failed! Expected: " 
-	                + ConfigReader.getProperty("url") + ", Found: " + url);
-	            Assert.fail("URL verification failed! Expected: " 
-	                + ConfigReader.getProperty("url") + ", Found: " + url);
-	        } else {
-	            ExtentLogger.extentPass("URL verified successfully");
-	        }
+			if (!ConfigReader.getProperty("url").equals(url)) {
+				ExtentLogger.extentFail(
+						"URL verification failed! Expected: " + ConfigReader.getProperty("url") + ", Found: " + url);
+				Assert.fail(
+						"URL verification failed! Expected: " + ConfigReader.getProperty("url") + ", Found: " + url);
+			} else {
+				ExtentLogger.extentPass("URL verified successfully");
+			}
 
-	        String title = util.getTitle();
-	        log.info("Page Title: " + title);
-	        ExtentLogger.extentInfo("Page Title: " + title);
+			String title = util.getTitle();
+			log.info("Page Title: " + title);
+			ExtentLogger.extentInfo("Page Title: " + title);
 
-	        if (!ConfigReader.getProperty("title").equals(title)) {
-	            ExtentLogger.extentFail("Title verification failed! Expected: " 
-	                + ConfigReader.getProperty("title") + ", Found: " + title);
-	            Assert.fail("Title verification failed! Expected: " 
-	                + ConfigReader.getProperty("title") + ", Found: " + title);
-	        } else {
-	            ExtentLogger.extentPass("Title verified successfully");
-	        }
+			if (!ConfigReader.getProperty("title").equals(title)) {
+				ExtentLogger.extentFail("Title verification failed! Expected: " + ConfigReader.getProperty("title")
+						+ ", Found: " + title);
+				Assert.fail("Title verification failed! Expected: " + ConfigReader.getProperty("title") + ", Found: "
+						+ title);
+			} else {
+				ExtentLogger.extentPass("Title verified successfully");
+			}
 
-	    } catch (Exception e) {
-	        log.error("Exception during title verification: " + e.getMessage());
-	        ExtentLogger.extentError("Exception during title verification: " + e.getMessage());
-	        Assert.fail("Exception during title verification: " + e.getMessage());
-	    }
+		} catch (Exception e) {
+			log.error("Exception during title verification: " + e.getMessage());
+			ExtentLogger.extentError("Exception during title verification: " + e.getMessage());
+			Assert.fail("Exception during title verification: " + e.getMessage());
+		}
 	}
 
 	public void verfiyingHomePage() {
-	    try {
-	        log.info("Verifying the page elements...");
-	        ExtentLogger.extentInfo("Verifying the page elements...");
+		try {
+			log.info("Verifying the page elements...");
+			ExtentLogger.extentInfo("Verifying the page elements...");
 
-	        util.getVisible(titleLink);
-	        if (titleLink.isDisplayed()) {
-	            ExtentLogger.extentPass("Title link verified...");
-	        } else {
-	            ExtentLogger.extentFail("Title link not displayed!");
-	            Assert.fail("Title link not displayed!");
-	        }
+			util.getVisible(titleLink);
+			if (titleLink.isDisplayed()) {
+				ExtentLogger.extentPass("Title link verified...");
+			} else {
+				ExtentLogger.extentFail("Title link not displayed!");
+				Assert.fail("Title link not displayed!");
+			}
 
-	        util.scrollToView(AboutNECF);
-	        util.getVisible(AboutNECF);
-	        if (AboutNECF.isDisplayed()) {
-	            ExtentLogger.extentPass("About NECF section verified...");
-	        } else {
-	            ExtentLogger.extentFail("About NECF section not displayed!");
-	            Assert.fail("About NECF section not displayed!");
-	        }
+			util.scrollToView(AboutNECF);
+			util.getVisible(AboutNECF);
+			if (AboutNECF.isDisplayed()) {
+				ExtentLogger.extentPass("About NECF section verified...");
+			} else {
+				ExtentLogger.extentFail("About NECF section not displayed!");
+				Assert.fail("About NECF section not displayed!");
+			}
 
-	        util.scrollToView(endLine);
-	        util.getVisible(endLine);
-	        if (endLine.isDisplayed()) {
-	            ExtentLogger.extentPass("Last element displayed...");
-	        } else {
-	            ExtentLogger.extentFail("Last element not displayed!");
-	            Assert.fail("Last element not displayed!");
-	        }
+			util.scrollToView(endLine);
+			util.getVisible(endLine);
+			if (endLine.isDisplayed()) {
+				ExtentLogger.extentPass("Last element displayed...");
+			} else {
+				ExtentLogger.extentFail("Last element not displayed!");
+				Assert.fail("Last element not displayed!");
+			}
 
-	    } catch (Exception e) {
-	        log.error("Exception while verifying home page: " + e.getMessage());
-	        ExtentLogger.extentError("Exception while verifying home page: " + e.getMessage());
-	        Assert.fail("Exception while verifying home page: " + e.getMessage());
-	    }
+		} catch (Exception e) {
+			log.error("Exception while verifying home page: " + e.getMessage());
+			ExtentLogger.extentError("Exception while verifying home page: " + e.getMessage());
+			Assert.fail("Exception while verifying home page: " + e.getMessage());
+		}
 	}
-
 
 	// -----------------------------------------
 	// VERIFY URL + TITLE
 	// -----------------------------------------
-	}
+}

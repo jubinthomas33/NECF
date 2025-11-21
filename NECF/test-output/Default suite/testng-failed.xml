@@ -6,7 +6,6 @@
       <class name="com.testRunner.TestRunner">
         <methods>
           <include name="setUpClass"/>
-          <include name="afterSuite"/>
           <include name="tearDownClass"/>
           <include name="runScenario" invocation-numbers="0"/>
           <include name="beforeSuite"/>
