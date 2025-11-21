@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-21T14:34:20 IST" name="Suite" finished-at="2025-11-21T14:34:38 IST" duration-ms="18383">
+  <suite started-at="2025-11-21T10:06:43 UTC" name="Suite" finished-at="2025-11-21T10:07:39 UTC" duration-ms="55876">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testRunner.TestRunner@7e057f43]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testRunner.TestRunner@7e6f74c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-11-21T14:34:20 IST" name="NECFTest" finished-at="2025-11-21T14:34:38 IST" duration-ms="18383">
+    <test started-at="2025-11-21T10:06:43 UTC" name="NECFTest" finished-at="2025-11-21T10:07:39 UTC" duration-ms="55876">
       <class name="com.testRunner.TestRunner">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.testRunner.TestRunner@7e057f43]" started-at="2025-11-21T14:34:20 IST" name="beforeSuite" finished-at="2025-11-21T14:34:20 IST" duration-ms="15" status="PASS">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.testRunner.TestRunner@7e6f74c]" started-at="2025-11-21T10:06:43 UTC" name="beforeSuite" finished-at="2025-11-21T10:06:43 UTC" duration-ms="50" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.testRunner.TestRunner@7e057f43]" started-at="2025-11-21T14:34:20 IST" name="setUpClass" finished-at="2025-11-21T14:34:20 IST" duration-ms="558" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.testRunner.TestRunner@7e6f74c]" started-at="2025-11-21T10:06:43 UTC" name="setUpClass" finished-at="2025-11-21T10:06:46 UTC" duration-ms="2931" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@3dd591b9]]>
+                <![CDATA[org.testng.TestRunner@13404f75]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testRunner.TestRunner@7e057f43]" started-at="2025-11-21T14:34:20 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-21T14:34:37 IST" duration-ms="16315" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testRunner.TestRunner@7e6f74c]" started-at="2025-11-21T10:06:46 UTC" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-21T10:07:34 UTC" duration-ms="48059" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -38,10 +38,23 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Title verification failed! Expected: NECF Global – Marketplace1, Found: NECF Global – Marketplace]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Title verification failed! Expected: NECF Global – Marketplace1, Found: NECF Global – Marketplace
+at org.testng.Assert.fail(Assert.java:111)
+at com.pages.HomePage.verifyingTitle(HomePage.java:139)
+at com.stepDefinitions.HomePageStep.the_website_should_load_successfully(HomePageStep.java:34)
+at ✽.the website should load successfully(file:///mnt/c/Users/jubin/NECF%20Project/NECF/src/test/resources/NECF.feature:5)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.testRunner.TestRunner@7e057f43]" started-at="2025-11-21T14:34:37 IST" name="tearDownClass" finished-at="2025-11-21T14:34:38 IST" duration-ms="1480" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.testRunner.TestRunner@7e6f74c]" started-at="2025-11-21T10:07:34 UTC" name="tearDownClass" finished-at="2025-11-21T10:07:39 UTC" duration-ms="4779" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
