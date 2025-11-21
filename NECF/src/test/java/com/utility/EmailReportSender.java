@@ -6,7 +6,7 @@ import java.util.Properties;
 
 import org.apache.logging.log4j.Logger;
 
-import io.github.cdimascio.dotenv.Dotenv;
+//import io.github.cdimascio.dotenv.Dotenv;
 import jakarta.activation.DataHandler;
 import jakarta.activation.FileDataSource;
 import jakarta.mail.Authenticator;
@@ -27,12 +27,12 @@ public class EmailReportSender {
 	// =====================================================
 	// MULTIPLE RECIPIENTS FROM CONFIG FILE
 	// =====================================================
-	private static final Dotenv dotenv = Dotenv.configure().filename("Credentials.env").load();
-	private static final String RECIPIENTS = String.join(",", dotenv.get("recipient1"),
-			dotenv.get("recipient2"));
+	// private static final Dotenv dotenv =
+	// Dotenv.configure().filename("Credentials.env").load();
+	private static final String RECIPIENTS = String.join(",", System.getenv("RECIPIENT1"), System.getenv("RECIPIENT2"));
 
-	private static final String FROM_EMAIL = dotenv.get("email");
-	private static final String APP_PASSWORD = dotenv.get("password");
+	private static final String FROM_EMAIL = System.getenv("EMAIL");
+	private static final String APP_PASSWORD = System.getenv("PASSWORD");
 
 	public static void sendFailureReportWithScreenshots(List<String> failedScenarios, List<String> failedScreenshots) {
 

@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 17.55 s <<< FAILURE! -- in TestSuite
-com.testRunner.TestRunner.runScenario["Verify NECF website is running", "NECF Website Health Check"](1) -- Time elapsed: 14.90 s <<< FAILURE!
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 26.33 s <<< FAILURE! -- in TestSuite
+com.testRunner.TestRunner.runScenario["Verify NECF website is running", "NECF Website Health Check"](1) -- Time elapsed: 21.24 s <<< FAILURE!
 java.lang.AssertionError: Title verification failed! Expected: NECF Global – Marketplace1, Found: NECF Global – Marketplace
 	at org.testng.Assert.fail(Assert.java:111)
 	at com.pages.HomePage.verifyingTitle(HomePage.java:139)

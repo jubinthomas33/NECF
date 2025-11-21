@@ -9,13 +9,13 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">45,976</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">46,049</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.testRunner.TestRunner</td><td><a href="#m0">runScenario</a></td><td rowspan="1">1763701583986</td><td rowspan="1">42845</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.testRunner.TestRunner</td><td><a href="#m0">runScenario</a></td><td rowspan="1">1763708200392</td><td rowspan="1">43545</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">com.testRunner.TestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Verify NECF website is running&quot;</td><td>&quot;NECF Website Health Check&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">junit.framework.AssertionFailedError: Title verification failed! Expected: NECF Global – Marketplace1, Found: NECF Global – Marketplace
-	at junit.framework.Assert.fail(Assert.java:47)
-	at com.pages.HomePage.verifyingTitle(HomePage.java:137)
+<h2>Default test</h2><h3 id="m0">com.testRunner.TestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Verify NECF website is running&quot;</td><td>&quot;NECF Website Health Check&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: Title verification failed! Expected: NECF Global – Marketplace1, Found: NECF Global – Marketplace
+	at org.testng.Assert.fail(Assert.java:111)
+	at com.pages.HomePage.verifyingTitle(HomePage.java:139)
 	at com.stepDefinitions.HomePageStep.the_website_should_load_successfully(HomePageStep.java:34)
 	at ✽.the website should load successfully(file:///C:/Users/jubin/NECF%20Project/NECF/src/test/resources/NECF.feature:5)
 </div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>

@@ -4,6 +4,7 @@ com\webdrivermanager\DriverManager.class
 com\utility\LoggerHelper.class
 com\utility\ExcelReader.class
 com\base\BaseClass.class
+com\pages\TestEnv.class
 com\utility\Elements.class
 com\pages\HomePage.class
 com\testRunner\TestRunner.class
