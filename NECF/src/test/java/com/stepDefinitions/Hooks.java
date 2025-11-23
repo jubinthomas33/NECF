@@ -9,11 +9,8 @@ import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter;
 import com.base.BaseClass;
-import com.utility.EmailReportSender;
 import com.utility.ExtentLogger;
-import com.utility.ExtentManager;
 import com.utility.LoggerHelper;
 import com.webdrivermanager.DriverManager;
 
@@ -69,26 +66,12 @@ public class Hooks {
         }
     }
 
-    @AfterAll
-    public static void flushReportsAndSendEmail() {
-        try {
-            log.info("Flushing ExtentReports...");
-            ExtentManager.getExtentReports().flush();
+    // Getter methods to access failed scenarios and screenshots from TestRunner
+    public static List<String> getFailedScenarios() {
+        return new ArrayList<>(failedScenarios);
+    }
 
-            // Wait to ensure HTML report is written
-            Thread.sleep(3000);
-
-            // Generate PDF from HTML
-            EmailReportSender.generatePdfFromHtml(
-                "target/ExtentReports/SparkReport.html",
-                "target/ExtentReports/ExtentReport.pdf"
-            );
-
-            log.info("Sending email report...");
-            EmailReportSender.sendFailureReportWithScreenshots(failedScenarios, failedScreenshots);
-
-        } catch(Exception e) {
-            log.error("Error in AfterAll: " + e.getMessage(), e);
-        }
+    public static List<String> getFailedScreenshots() {
+        return new ArrayList<>(failedScreenshots);
     }
 }

@@ -1,14 +1,10 @@
 package com.utility;
 
 import java.io.File;
-import java.io.FileOutputStream;
-import java.io.OutputStream;
 import java.util.List;
 import java.util.Properties;
 
 import org.apache.logging.log4j.Logger;
-
-import com.openhtmltopdf.pdfboxout.PdfRendererBuilder;
 
 import jakarta.activation.DataHandler;
 import jakarta.activation.FileDataSource;
@@ -28,7 +24,6 @@ public class EmailReportSender {
     private static final Logger log = LoggerHelper.getLogger(EmailReportSender.class);
 
     private static String getReportPath(String fileName) {
-        String os = System.getProperty("os.name").toLowerCase();
         String basePath = "target" + File.separator + "ExtentReports" + File.separator;
         return basePath + fileName;
     }
@@ -48,19 +43,6 @@ public class EmailReportSender {
 
     private static final String FROM_EMAIL = System.getenv("EMAIL");
     private static final String APP_PASSWORD = System.getenv("PASSWORD");
-
-    public static void generatePdfFromHtml(String htmlPath, String pdfPath) {
-        try (OutputStream os = new FileOutputStream(pdfPath)) {
-            PdfRendererBuilder builder = new PdfRendererBuilder();
-            builder.useFastMode();
-            builder.withFile(new File(htmlPath));
-            builder.toStream(os);
-            builder.run();
-            log.info("✔ PDF generated: " + pdfPath);
-        } catch (Exception e) {
-            log.error("❌ PDF generation failed: " + e.getMessage(), e);
-        }
-    }
 
     public static void sendFailureReportWithScreenshots(List<String> failedScenarios, List<String> failedScreenshots) {
 
@@ -91,6 +73,7 @@ public class EmailReportSender {
             message.setFrom(new InternetAddress(FROM_EMAIL));
             message.setRecipients(Message.RecipientType.TO, InternetAddress.parse(recipients));
             message.setSubject("NECF SITE DOWN — ATTENTION REQUIRED!");
+            
 
             MimeBodyPart htmlPart = new MimeBodyPart();
             StringBuilder htmlContent = new StringBuilder();
@@ -116,21 +99,19 @@ public class EmailReportSender {
                 }
             }
 
-            // HTML & PDF attachments
+            // HTML report attachment - only attach if file exists and is not empty
             File htmlReport = new File(getReportPath("SparkReport.html"));
-            if(htmlReport.exists()) {
+            if(htmlReport.exists() && htmlReport.length() > 1000) { // Minimum 1KB to ensure it's not empty
                 MimeBodyPart htmlAttach = new MimeBodyPart();
                 htmlAttach.attachFile(htmlReport);
                 multipart.addBodyPart(htmlAttach);
-                log.info("✔ HTML report attached");
-            }
-
-            File pdfReport = new File(getReportPath("ExtentReport.pdf"));
-            if(pdfReport.exists()) {
-                MimeBodyPart pdfAttach = new MimeBodyPart();
-                pdfAttach.attachFile(pdfReport);
-                multipart.addBodyPart(pdfAttach);
-                log.info("✔ PDF report attached");
+                log.info("✔ HTML report attached (Size: " + htmlReport.length() + " bytes)");
+            } else {
+                if (!htmlReport.exists()) {
+                    log.warn("⚠️ HTML report not found: " + htmlReport.getAbsolutePath());
+                } else {
+                    log.warn("⚠️ HTML report is empty or too small (Size: " + htmlReport.length() + " bytes). Not attaching to email.");
+                }
             }
 
             message.setContent(multipart);

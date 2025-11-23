@@ -1,4 +1,7 @@
 <suite name="Suite">
+  <listeners>
+    <listener class-name="com.utility.SuiteListener" />
+  </listeners>
   <test name="NECFTest" thread-count="5">
     <classes>
       <class name="com.testRunner.TestRunner"/>
