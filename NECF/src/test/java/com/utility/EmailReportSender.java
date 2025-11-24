@@ -24,8 +24,11 @@ public class EmailReportSender {
     private static final Logger log = LoggerHelper.getLogger(EmailReportSender.class);
 
     private static String getReportPath(String fileName) {
-        String basePath = "target" + File.separator + "ExtentReports" + File.separator;
-        return basePath + fileName;
+        String userDir = System.getProperty("user.dir");
+        String basePath = userDir + File.separator + "target" + File.separator + "ExtentReports" + File.separator;
+        String fullPath = basePath + fileName;
+        log.info("Report path resolved to: " + fullPath);
+        return fullPath;
     }
 
     private static String getRecipients() {
@@ -73,7 +76,6 @@ public class EmailReportSender {
             message.setFrom(new InternetAddress(FROM_EMAIL));
             message.setRecipients(Message.RecipientType.TO, InternetAddress.parse(recipients));
             message.setSubject("NECF SITE DOWN — ATTENTION REQUIRED!");
-            
 
             MimeBodyPart htmlPart = new MimeBodyPart();
             StringBuilder htmlContent = new StringBuilder();

@@ -4101,3 +4101,111 @@ Caused by: org.xml.sax.SAXParseException: The entity name must immediately follo
 2025-11-23 12:52:03.626 WARN  com.utility.SuiteListener:48 - Method not found in ExtentCucumberAdapter: com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.getExtent()
 2025-11-23 12:52:06.159 INFO  com.utility.SuiteListener:116 - HTML report is ready: /mnt/c/Users/jubin/NECF Project/NECF/target/ExtentReports/SparkReport.html (Size: 11513 bytes)
 2025-11-23 12:52:06.160 INFO  com.utility.SuiteListener:143 - No failed scenarios detected. Email not sent.
+2025-11-24 10:44:02.828 INFO  com.utility.SuiteListener:24 - Test Suite started: Suite
+2025-11-24 10:44:02.842 INFO  com.utility.SuiteListener:79 - ExtentReports directory does not exist, creating it...
+2025-11-24 10:44:02.846 INFO  com.utility.SuiteListener:81 - ✔ ExtentReports directory created
+2025-11-24 10:44:29.828 INFO  com.webdrivermanager.DriverManager:33 - Launching Chrome in HEADLESS mode
+2025-11-24 10:44:29.830 INFO  com.stepDefinitions.Hooks:36 - Driver initialized for scenario: Sanity Test
+2025-11-24 10:44:30.510 INFO  com.pages.HomePage:50 - Checking site availability for URL: https://mediaxbook.com/
+2025-11-24 10:44:32.576 INFO  com.pages.HomePage:60 - Server responded with status code: 200
+2025-11-24 10:44:32.577 INFO  com.pages.HomePage:66 - Website is UP
+2025-11-24 10:45:01.959 INFO  com.pages.HomePage:88 - Navigated to URL: https://mediaxbook.com/
+2025-11-24 10:45:01.977 INFO  com.pages.HomePage:105 - Page Load Time: 29361 ms
+2025-11-24 10:45:01.979 INFO  com.pages.HomePage:116 - Verifying URL...
+2025-11-24 10:45:01.993 INFO  com.pages.HomePage:120 - Current URL: https://mediaxbook.com/
+2025-11-24 10:45:02.014 INFO  com.pages.HomePage:133 - Page Title: NECF Global – Marketplace
+2025-11-24 10:45:02.016 INFO  com.pages.HomePage:154 - Verifying the page elements...
+2025-11-24 10:45:02.531 INFO  com.webdrivermanager.DriverManager:76 - Driver quit successfully
+2025-11-24 10:45:02.532 INFO  com.stepDefinitions.Hooks:65 - Driver quit after scenario: Sanity Test
+2025-11-24 10:45:03.739 INFO  com.utility.SuiteListener:91 - Test Suite finished: Suite
+2025-11-24 10:45:03.740 INFO  com.utility.SuiteListener:94 - Flushing ExtentReports...
+2025-11-24 10:45:03.742 WARN  com.utility.SuiteListener:48 - Method not found in ExtentCucumberAdapter: com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.getExtent()
+2025-11-24 10:45:06.271 INFO  com.utility.SuiteListener:116 - HTML report is ready: /mnt/c/Users/jubin/NECF Project/NECF/target/ExtentReports/SparkReport.html (Size: 11514 bytes)
+2025-11-24 10:45:06.272 INFO  com.utility.SuiteListener:143 - No failed scenarios detected. Email not sent.
+2025-11-24 10:49:36.301 INFO  com.utility.SuiteListener:24 - Test Suite started: Suite
+2025-11-24 10:49:36.318 INFO  com.utility.SuiteListener:79 - ExtentReports directory does not exist, creating it...
+2025-11-24 10:49:36.323 INFO  com.utility.SuiteListener:81 - ✔ ExtentReports directory created
+2025-11-24 10:49:42.482 INFO  com.webdrivermanager.DriverManager:33 - Launching Chrome in HEADLESS mode
+2025-11-24 10:49:42.483 INFO  com.stepDefinitions.Hooks:36 - Driver initialized for scenario: Sanity Test
+2025-11-24 10:49:43.140 INFO  com.pages.HomePage:50 - Checking site availability for URL: https://mediaxbook.com/
+2025-11-24 10:49:45.224 INFO  com.pages.HomePage:60 - Server responded with status code: 200
+2025-11-24 10:49:45.227 INFO  com.pages.HomePage:66 - Website is UP
+2025-11-24 10:49:57.564 INFO  com.pages.HomePage:88 - Navigated to URL: https://mediaxbook.com/
+2025-11-24 10:49:57.586 INFO  com.pages.HomePage:105 - Page Load Time: 12302 ms
+2025-11-24 10:49:57.588 INFO  com.pages.HomePage:116 - Verifying URL...
+2025-11-24 10:49:57.597 INFO  com.pages.HomePage:120 - Current URL: https://mediaxbook.com/
+2025-11-24 10:49:57.607 INFO  com.pages.HomePage:133 - Page Title: NECF Global – Marketplace
+2025-11-24 10:49:57.846 INFO  com.webdrivermanager.DriverManager:76 - Driver quit successfully
+2025-11-24 10:49:57.847 INFO  com.stepDefinitions.Hooks:65 - Driver quit after scenario: Sanity Test
+2025-11-24 10:49:59.389 INFO  com.utility.SuiteListener:91 - Test Suite finished: Suite
+2025-11-24 10:49:59.390 INFO  com.utility.SuiteListener:94 - Flushing ExtentReports...
+2025-11-24 10:49:59.391 WARN  com.utility.SuiteListener:48 - Method not found in ExtentCucumberAdapter: com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.getExtent()
+2025-11-24 10:50:01.921 INFO  com.utility.SuiteListener:116 - HTML report is ready: /mnt/c/Users/jubin/NECF Project/NECF/target/ExtentReports/SparkReport.html (Size: 13543 bytes)
+2025-11-24 10:50:01.923 INFO  com.utility.SuiteListener:136 - Sending email report for 1 failed scenario(s)...
+2025-11-24 10:50:02.003 INFO  com.utility.EmailReportSender:49 - ========== EMAIL DEBUG START ==========
+2025-11-24 10:50:02.342 INFO  com.utility.EmailReportSender:98 - ✔ Screenshot attached: /mnt/c/Users/jubin/NECF Project/NECF/target/ExtentReports/screenshots/Sanity_Test.png
+2025-11-24 10:50:02.357 INFO  com.utility.EmailReportSender:108 - ✔ HTML report attached (Size: 13543 bytes)
+2025-11-24 10:50:08.564 INFO  com.utility.EmailReportSender:120 - 📧 ✔ Email sent successfully!
+2025-11-24 10:50:08.566 INFO  com.utility.EmailReportSender:126 - ========== EMAIL DEBUG END ==========
+2025-11-24 11:04:27.099 INFO  com.utility.SuiteListener:24 - Test Suite started: Suite
+2025-11-24 11:04:27.113 INFO  com.utility.SuiteListener:79 - ExtentReports directory does not exist, creating it...
+2025-11-24 11:04:27.117 INFO  com.utility.SuiteListener:81 - ✔ ExtentReports directory created
+2025-11-24 11:04:35.114 INFO  com.webdrivermanager.DriverManager:33 - Launching Chrome in HEADLESS mode
+2025-11-24 11:04:35.116 INFO  com.stepDefinitions.Hooks:36 - Driver initialized for scenario: Sanity Test
+2025-11-24 11:04:35.836 INFO  com.pages.HomePage:50 - Checking site availability for URL: https://mediaxbook.com/
+2025-11-24 11:04:37.959 INFO  com.pages.HomePage:60 - Server responded with status code: 200
+2025-11-24 11:04:37.960 INFO  com.pages.HomePage:66 - Website is UP
+2025-11-24 11:05:15.177 INFO  com.pages.HomePage:88 - Navigated to URL: https://mediaxbook.com/
+2025-11-24 11:05:15.201 INFO  com.pages.HomePage:105 - Page Load Time: 37192 ms
+2025-11-24 11:05:15.203 INFO  com.pages.HomePage:116 - Verifying URL...
+2025-11-24 11:05:15.220 INFO  com.pages.HomePage:120 - Current URL: https://mediaxbook.com/
+2025-11-24 11:05:15.234 INFO  com.pages.HomePage:133 - Page Title: NECF Global – Marketplace
+2025-11-24 11:05:15.560 INFO  com.webdrivermanager.DriverManager:76 - Driver quit successfully
+2025-11-24 11:05:15.561 INFO  com.stepDefinitions.Hooks:65 - Driver quit after scenario: Sanity Test
+2025-11-24 11:05:17.693 INFO  com.utility.SuiteListener:91 - Test Suite finished: Suite
+2025-11-24 11:05:17.695 INFO  com.utility.SuiteListener:94 - Flushing ExtentReports...
+2025-11-24 11:05:17.697 WARN  com.utility.SuiteListener:48 - Method not found in ExtentCucumberAdapter: com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.getExtent()
+2025-11-24 11:05:20.235 INFO  com.utility.SuiteListener:116 - HTML report is ready: /mnt/c/Users/jubin/NECF Project/NECF/target/ExtentReports/SparkReport.html (Size: 13543 bytes)
+2025-11-24 11:05:20.238 INFO  com.utility.SuiteListener:136 - Sending email report for 1 failed scenario(s)...
+2025-11-24 11:05:20.339 INFO  com.utility.EmailReportSender:49 - ========== EMAIL DEBUG START ==========
+2025-11-24 11:05:20.698 INFO  com.utility.EmailReportSender:98 - ✔ Screenshot attached: /mnt/c/Users/jubin/NECF Project/NECF/target/ExtentReports/screenshots/Sanity_Test.png
+2025-11-24 11:05:20.714 INFO  com.utility.EmailReportSender:108 - ✔ HTML report attached (Size: 13543 bytes)
+2025-11-24 11:05:26.374 INFO  com.utility.EmailReportSender:120 - 📧 ✔ Email sent successfully!
+2025-11-24 11:05:26.376 INFO  com.utility.EmailReportSender:126 - ========== EMAIL DEBUG END ==========
+2025-11-24 11:18:00.485 INFO  com.utility.SuiteListener:46 - Test Suite started: Suite
+2025-11-24 11:18:00.498 INFO  com.utility.SuiteListener:47 - Working directory: /mnt/c/Users/jubin/NECF Project/NECF
+2025-11-24 11:18:00.499 INFO  com.utility.SuiteListener:28 - Current working directory: /mnt/c/Users/jubin/NECF Project/NECF
+2025-11-24 11:18:00.500 INFO  com.utility.SuiteListener:30 - ExtentReports directory path: /mnt/c/Users/jubin/NECF Project/NECF/target/ExtentReports
+2025-11-24 11:18:00.502 INFO  com.utility.SuiteListener:102 - ExtentReports directory does not exist, creating it...
+2025-11-24 11:18:00.507 INFO  com.utility.SuiteListener:104 - ✔ ExtentReports directory created at: /mnt/c/Users/jubin/NECF Project/NECF/target/ExtentReports
+2025-11-24 11:18:07.902 INFO  com.webdrivermanager.DriverManager:33 - Launching Chrome in HEADLESS mode
+2025-11-24 11:18:07.903 INFO  com.stepDefinitions.Hooks:36 - Driver initialized for scenario: Sanity Test
+2025-11-24 11:18:08.637 INFO  com.pages.HomePage:50 - Checking site availability for URL: https://mediaxbook.com/
+2025-11-24 11:18:13.937 INFO  com.pages.HomePage:60 - Server responded with status code: 200
+2025-11-24 11:18:13.939 INFO  com.pages.HomePage:66 - Website is UP
+2025-11-24 11:18:24.410 INFO  com.pages.HomePage:88 - Navigated to URL: https://mediaxbook.com/
+2025-11-24 11:18:24.434 INFO  com.pages.HomePage:105 - Page Load Time: 10447 ms
+2025-11-24 11:18:24.436 INFO  com.pages.HomePage:116 - Verifying URL...
+2025-11-24 11:18:24.447 INFO  com.pages.HomePage:120 - Current URL: https://mediaxbook.com/
+2025-11-24 11:18:24.458 INFO  com.pages.HomePage:133 - Page Title: NECF Global – Marketplace
+2025-11-24 11:18:24.777 INFO  com.webdrivermanager.DriverManager:76 - Driver quit successfully
+2025-11-24 11:18:24.779 INFO  com.stepDefinitions.Hooks:65 - Driver quit after scenario: Sanity Test
+2025-11-24 11:18:26.291 INFO  com.utility.SuiteListener:114 - Test Suite finished: Suite
+2025-11-24 11:18:26.293 INFO  com.utility.SuiteListener:115 - Working directory: /mnt/c/Users/jubin/NECF Project/NECF
+2025-11-24 11:18:26.294 INFO  com.utility.SuiteListener:120 - Failed scenarios count: 1
+2025-11-24 11:18:26.295 INFO  com.utility.SuiteListener:121 - Failed screenshots count: 1
+2025-11-24 11:18:26.296 INFO  com.utility.SuiteListener:124 - Flushing ExtentReports...
+2025-11-24 11:18:26.297 WARN  com.utility.SuiteListener:71 - Method not found in ExtentCucumberAdapter: com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.getExtent()
+2025-11-24 11:18:28.300 INFO  com.utility.SuiteListener:28 - Current working directory: /mnt/c/Users/jubin/NECF Project/NECF
+2025-11-24 11:18:28.302 INFO  com.utility.SuiteListener:30 - ExtentReports directory path: /mnt/c/Users/jubin/NECF Project/NECF/target/ExtentReports
+2025-11-24 11:18:28.304 INFO  com.utility.SuiteListener:40 - HTML report file path: /mnt/c/Users/jubin/NECF Project/NECF/target/ExtentReports/SparkReport.html
+2025-11-24 11:18:28.306 INFO  com.utility.SuiteListener:132 - Checking for HTML report at: /mnt/c/Users/jubin/NECF Project/NECF/target/ExtentReports/SparkReport.html
+2025-11-24 11:18:28.313 INFO  com.utility.SuiteListener:147 - Waiting for HTML report to be generated (max 20 seconds)...
+2025-11-24 11:18:29.339 INFO  com.utility.SuiteListener:159 - ✔ HTML report is ready: /mnt/c/Users/jubin/NECF Project/NECF/target/ExtentReports/SparkReport.html (Size: 13543 bytes)
+2025-11-24 11:18:29.341 INFO  com.utility.SuiteListener:199 - Sending email report for 1 failed scenario(s)...
+2025-11-24 11:18:29.417 INFO  com.utility.EmailReportSender:52 - ========== EMAIL DEBUG START ==========
+2025-11-24 11:18:29.745 INFO  com.utility.EmailReportSender:100 - ✔ Screenshot attached: /mnt/c/Users/jubin/NECF Project/NECF/target/ExtentReports/screenshots/Sanity_Test.png
+2025-11-24 11:18:29.752 INFO  com.utility.EmailReportSender:30 - Report path resolved to: /mnt/c/Users/jubin/NECF Project/NECF/target/ExtentReports/SparkReport.html
+2025-11-24 11:18:29.768 INFO  com.utility.EmailReportSender:110 - ✔ HTML report attached (Size: 13543 bytes)
+2025-11-24 11:18:34.683 INFO  com.utility.EmailReportSender:122 - 📧 ✔ Email sent successfully!
+2025-11-24 11:18:34.685 INFO  com.utility.EmailReportSender:128 - ========== EMAIL DEBUG END ==========
